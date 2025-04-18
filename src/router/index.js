@@ -103,6 +103,12 @@ const router = createRouter({
                     path: '/documentation',
                     name: 'documentation',
                     component: () => import('@/views/pages/Documentation.vue')
+                },
+
+                {
+                    path: '/dswd',
+                    name: 'dswd',
+                    component: () => import('@/views/pages/govAgencies/DSWD.vue')
                 }
             ]
         },
