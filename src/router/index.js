@@ -106,9 +106,71 @@ const router = createRouter({
                 },
 
                 {
+                    path: '/doh',
+                    name: 'doh',
+                    component: () => import('@/views/pages/govAgencies/DOH.vue')
+                },
+                {
                     path: '/dswd',
                     name: 'dswd',
                     component: () => import('@/views/pages/govAgencies/DSWD.vue')
+                },
+                {
+                    path: '/op',
+                    name: 'op',
+                    component: () => import('@/views/pages/govAgencies/OP.vue')
+                },
+                {
+                    path: '/ovp',
+                    name: 'ovp',
+                    component: () => import('@/views/pages/govAgencies/OVP.vue')
+                },
+                // {
+                //     path: '/pace',
+                //     name: 'pace',
+                //     component: () => import('@/views/pages/govAgencies/PACE.vue')
+                // },
+                {
+                    path: '/pagcor',
+                    name: 'pagcor',
+                    component: () => import('@/views/pages/govAgencies/PAGCOR.vue')
+                },
+                {
+                    path: '/pcso',
+                    name: 'pcso',
+                    component: () => import('@/views/pages/govAgencies/PCSO.vue')
+                },
+
+                {
+                    path: '/pcso',
+                    name: 'pcso',
+                    component: () => import('@/views/pages/govAgencies/PCSO.vue')
+                },
+                {
+                    path: '/pms',
+                    name: 'pms',
+                    component: () => import('@/views/pages/govAgencies/PMS.vue')
+                },
+                {
+                    path: '/spao',
+                    name: 'spao',
+                    component: () => import('@/views/pages/govAgencies/SPAO.vue')
+                },
+
+                {
+                    path: '/officers',
+                    name: 'officers',
+                    component: () => import('@/views/pages/Officers/CavStake.vue')
+                },
+                {
+                    path: '/stories',
+                    name: 'stories',
+                    component: () => import('@/views/pages/Stories/CavStake.vue')
+                },
+                {
+                    path: '/about',
+                    name: 'about',
+                    component: () => import('@/views/pages/About.vue')
                 }
             ]
         },

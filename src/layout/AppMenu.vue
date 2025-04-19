@@ -1,4 +1,15 @@
 <script setup>
+import doh from '@/assets/logo/doh.png';
+import dswd from '@/assets/logo/dswd2.png';
+import op from '@/assets/logo/op.svg';
+import ovp from '@/assets/logo/ovp.svg';
+import pagcor from '@/assets/logo/pagcor.png';
+import pcso from '@/assets/logo/pcso.png';
+import pms from '@/assets/logo/pms.png';
+import spao from '@/assets/logo/spao.png';
+
+//flats
+
 import { ref } from 'vue';
 
 import AppMenuItem from './AppMenuItem.vue';
@@ -6,7 +17,7 @@ import AppMenuItem from './AppMenuItem.vue';
 const model = ref([
     {
         label: 'Home',
-        items: [{ label: 'Dashboard', icon: 'pi pi-fw pi-home', to: '/' }]
+        items: [{ label: 'Home', icon: 'pi pi-fw pi-home', to: '/' }]
     },
     // {
     //     label: 'UI Components',
@@ -74,73 +85,143 @@ const model = ref([
             //     icon: 'pi pi-fw pi-circle-off',
             //     to: '/pages/empty'
             // }
+
+            {
+                label: 'DOH',
+                icon: 'pi pi-fw pi-globe',
+                logo: doh,
+                to: '/doh'
+            },
             {
                 label: 'DSWD',
                 icon: 'pi pi-fw pi-globe',
+                logo: dswd,
                 to: '/dswd'
+            },
+            {
+                label: 'OP',
+                icon: 'pi pi-fw pi-globe',
+                logo: op,
+                to: '/op'
+            },
+            {
+                label: 'OVP',
+                icon: 'pi pi-fw pi-globe',
+                logo: ovp,
+                to: '/ovp'
+            },
+            // {
+            //     label: 'PACE',
+            //     icon: 'pi pi-fw pi-globe',
+            //     logo: pace,
+            //     to: '/pace'
+            // },
+            {
+                label: 'PAGCOR',
+                icon: 'pi pi-fw pi-globe',
+                logo: pagcor,
+                to: '/pagcor'
+            },
+            {
+                label: 'PCSO',
+                icon: 'pi pi-fw pi-globe',
+                logo: pcso,
+                to: '/pcso'
+            },
+            {
+                label: 'PMS',
+                icon: 'pi pi-fw pi-globe',
+                logo: pms,
+                to: '/pms'
+            },
+            {
+                label: 'SPAO',
+                icon: 'pi pi-fw pi-globe',
+                logo: spao,
+                to: '/spao'
             }
         ]
     },
     {
-        label: 'Hierarchy',
+        label: 'Others',
         items: [
             {
-                label: 'Submenu 1',
-                icon: 'pi pi-fw pi-bookmark',
-                items: [
-                    {
-                        label: 'Submenu 1.1',
-                        icon: 'pi pi-fw pi-bookmark',
-                        items: [
-                            { label: 'Submenu 1.1.1', icon: 'pi pi-fw pi-bookmark' },
-                            { label: 'Submenu 1.1.2', icon: 'pi pi-fw pi-bookmark' },
-                            { label: 'Submenu 1.1.3', icon: 'pi pi-fw pi-bookmark' }
-                        ]
-                    },
-                    {
-                        label: 'Submenu 1.2',
-                        icon: 'pi pi-fw pi-bookmark',
-                        items: [{ label: 'Submenu 1.2.1', icon: 'pi pi-fw pi-bookmark' }]
-                    }
-                ]
+                label: 'Officers',
+                icon: 'pi pi-fw pi-user',
+                to: '/officers'
             },
             {
-                label: 'Submenu 2',
-                icon: 'pi pi-fw pi-bookmark',
-                items: [
-                    {
-                        label: 'Submenu 2.1',
-                        icon: 'pi pi-fw pi-bookmark',
-                        items: [
-                            { label: 'Submenu 2.1.1', icon: 'pi pi-fw pi-bookmark' },
-                            { label: 'Submenu 2.1.2', icon: 'pi pi-fw pi-bookmark' }
-                        ]
-                    },
-                    {
-                        label: 'Submenu 2.2',
-                        icon: 'pi pi-fw pi-bookmark',
-                        items: [{ label: 'Submenu 2.2.1', icon: 'pi pi-fw pi-bookmark' }]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        label: 'Get Started',
-        items: [
-            {
-                label: 'Documentation',
-                icon: 'pi pi-fw pi-book',
-                to: '/documentation'
+                label: 'Stories',
+                icon: 'pi pi-fw pi-comment',
+                to: '/stories'
             },
             {
-                label: 'View Source',
-                icon: 'pi pi-fw pi-github',
-                url: 'https://github.com/primefaces/sakai-vue',
-                target: '_blank'
+                label: 'About',
+                icon: 'pi pi-fw pi-info-circle',
+                to: '/about'
             }
         ]
     }
+    // {
+    //     label: 'Hierarchy',
+    //     items: [
+    //         {
+    //             label: 'Submenu 1',
+    //             icon: 'pi pi-fw pi-bookmark',
+    //             items: [
+    //                 {
+    //                     label: 'Submenu 1.1',
+    //                     icon: 'pi pi-fw pi-bookmark',
+    //                     items: [
+    //                         { label: 'Submenu 1.1.1', icon: 'pi pi-fw pi-bookmark' },
+    //                         { label: 'Submenu 1.1.2', icon: 'pi pi-fw pi-bookmark' },
+    //                         { label: 'Submenu 1.1.3', icon: 'pi pi-fw pi-bookmark' }
+    //                     ]
+    //                 },
+    //                 {
+    //                     label: 'Submenu 1.2',
+    //                     icon: 'pi pi-fw pi-bookmark',
+    //                     items: [{ label: 'Submenu 1.2.1', icon: 'pi pi-fw pi-bookmark' }]
+    //                 }
+    //             ]
+    //         },
+    //         {
+    //             label: 'Submenu 2',
+    //             icon: 'pi pi-fw pi-bookmark',
+    //             items: [
+    //                 {
+    //                     label: 'Submenu 2.1',
+    //                     icon: 'pi pi-fw pi-bookmark',
+    //                     items: [
+    //                         { label: 'Submenu 2.1.1', icon: 'pi pi-fw pi-bookmark' },
+    //                         { label: 'Submenu 2.1.2', icon: 'pi pi-fw pi-bookmark' }
+    //                     ]
+    //                 },
+    //                 {
+    //                     label: 'Submenu 2.2',
+    //                     icon: 'pi pi-fw pi-bookmark',
+    //                     items: [{ label: 'Submenu 2.2.1', icon: 'pi pi-fw pi-bookmark' }]
+    //                 }
+    //             ]
+    //         }
+    //     ]
+    // },
+    // {
+    //     label: 'Get Started',
+    //     items: [
+    //         {
+    //             label: 'Documentation',
+    //             icon: 'pi pi-fw pi-book',
+    //             to: '/documentation'
+    //         },
+    //         {
+    //             label: 'View Source',
+    //             icon: 'pi pi-fw pi-github',
+    //             url: 'https://github.com/primefaces/sakai-vue',
+    //             target: '_blank'
+    //         }
+    //     ]
+    // }
 ]);
 </script>
 
