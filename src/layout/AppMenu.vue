@@ -40,7 +40,7 @@ const model = ref([
     //     ]
     // },
     {
-        label: 'GOV. Agencies',
+        label: 'Government Agencies',
         icon: 'pi pi-fw pi-briefcase',
         to: '/pages',
         items: [

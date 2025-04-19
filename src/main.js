@@ -22,5 +22,12 @@ app.use(PrimeVue, {
 });
 app.use(ToastService);
 app.use(ConfirmationService);
+// app.use(Vue3Lottie, {
+//     name: 'Lottie',
+//     defaultOptions: {
+//         loop: true,
+//         autoplay: true
+//     }
+// });
 
 app.mount('#app');

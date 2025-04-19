@@ -30,7 +30,7 @@ const { toggleMenu, toggleDarkMode, isDarkTheme } = useLayout();
                     </g>
                 </svg> -->
 
-                <span>GAMA</span>
+                <span class="font-extrabold" style="font-family: 'Century Gothic', sans-serif">GAMA</span>
             </router-link>
         </div>
 
