@@ -70,7 +70,7 @@ const sss = [
                 <div v-for="i in presenters" :key="i" class="flex flex-col items-center py-8">
                     <img class="w-24 h-24 mb-3 rounded-full shadow-lg object-cover" :src="i.image" alt="Bonnie image" />
                     <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white text-center">{{ i.name }}</h5>
-                    <span class="text-sm text-gray-500 dark:text-gray-400">{{ i.position }}</span>
+                    <span class="text-sm text-gray-500 dark:text-gray-400 text-center">{{ i.position }}</span>
                     <span class="text-sm text-gray-500 dark:text-gray-400">{{ i.phone }}</span>
                     <!-- <div class="flex mt-2">
                         <a

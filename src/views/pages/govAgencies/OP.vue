@@ -2,7 +2,7 @@
     <div class="px-4 sm:px-6 lg:px-8">
         <div>
             <p>
-                <b class="text-lg">The Office of the President</b> in the Philippines offers medical assistance through the Presidential Help Desk, which is managed by the Presidential Action Center (PACe). This program aims to provide direct access
+                <b class="text-xl">The Office of the President</b> in the Philippines offers medical assistance through the Presidential Help Desk, which is managed by the Presidential Action Center (PACe). This program aims to provide direct access
                 to medical and financial assistance for Filipino citizens in need.
             </p>
             <p>

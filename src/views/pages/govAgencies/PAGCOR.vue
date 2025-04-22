@@ -1,7 +1,7 @@
 <template>
     <div class="px-4 sm:px-6 lg:px-8">
         <div>
-            <p><b class="text-lg">The Philippine Amusement and Gaming Corporation (PAGCOR)</b> offers medical assistance to individuals in need through their Corporate Social Responsibility (CSR) programs.</p>
+            <p><b class="text-xl">The Philippine Amusement and Gaming Corporation (PAGCOR)</b> offers medical assistance to individuals in need through their Corporate Social Responsibility (CSR) programs.</p>
             <p>&nbsp;</p>
             <p>Types of Medical Assistance:</p>
             <p>1.&nbsp;<strong>Financial Assistance</strong>: PAGCOR provides financial aid to cover hospital bills, medication, and other medical expenses.</p>

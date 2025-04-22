@@ -1,7 +1,7 @@
 <template>
     <div class="px-4 sm:px-6 lg:px-8">
         <div>
-            <p><b class="text-lg">The Office of the Vice President (OVP)</b> of the Philippines provides medical assistance to those in need through various programs and initiatives. Here are some ways to avail of medical assistance from the OVP:</p>
+            <p><b class="text-xl">The Office of the Vice President (OVP)</b> of the Philippines provides medical assistance to those in need through various programs and initiatives. Here are some ways to avail of medical assistance from the OVP:</p>
             <b>Eligibility</b>
             <ol style="list-style-type: decimal; list-style-position: inside" start="1">
                 <li>Filipino citizen</li>

@@ -1,7 +1,7 @@
 <template>
     <div class="px-4 sm:px-6 lg:px-8">
         <div>
-            <p><b class="text-lg">The Senate Public Assistance Office (SPAO)</b> in the Philippines provides medical assistance to those in need, particularly for hospitalization, medical procedures, and purchase of medicines.</p>
+            <p><b class="text-xl">The Senate Public Assistance Office (SPAO)</b> in the Philippines provides medical assistance to those in need, particularly for hospitalization, medical procedures, and purchase of medicines.</p>
             <b>Eligibility</b>
             <ol style="list-style-type: decimal; list-style-position: inside" start="1">
                 <li>Filipino citizen</li>

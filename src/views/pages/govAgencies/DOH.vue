@@ -5,7 +5,7 @@
     <div class="px-4 sm:px-6 lg:px-8">
         <div>
             <p>
-                <b class="text-lg">The Department of Health (DOH)</b> offers medical assistance to individuals in need through various programs. One of these programs is the Medical Assistance for Indigent Program (MAIP), which provides financial
+                <b class="text-xl">The Department of Health (DOH)</b> offers medical assistance to individuals in need through various programs. One of these programs is the Medical Assistance for Indigent Program (MAIP), which provides financial
                 assistance to indigent patients.
             </p>
 

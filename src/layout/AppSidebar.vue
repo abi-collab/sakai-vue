@@ -5,6 +5,7 @@ import AppMenu from './AppMenu.vue';
 <template>
     <div class="layout-sidebar">
         <app-menu></app-menu>
+        <!-- <div class="bg-yellow-300 absolute bottom-0 w-24">dfvdfvd</div> -->
     </div>
 </template>
 

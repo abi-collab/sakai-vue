@@ -13,6 +13,7 @@
         transform var(--layout-section-transition-duration),
         left var(--layout-section-transition-duration);
     background: linear-gradient(135deg, var(--surface-overlay) 0%, var(--surface-hover) 100%);
+    // box-shadow: 5px 0 5px rgba(0, 0, 0, 0.1);
     border-radius: var(--content-border-radius);
     padding: 0.5rem 1.5rem;
 }

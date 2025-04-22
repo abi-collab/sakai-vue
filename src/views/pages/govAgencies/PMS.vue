@@ -2,7 +2,7 @@
     <div class="px-4 sm:px-6 lg:px-8">
         <div>
             <p>
-                <b class="text-lg">The Presidential Management Staff (PMS)</b> of the Philippines provides medical assistance to those in need. To request medical assistance, you'll need to submit certain documents, including a medical certificate or
+                <b class="text-xl">The Presidential Management Staff (PMS)</b> of the Philippines provides medical assistance to those in need. To request medical assistance, you'll need to submit certain documents, including a medical certificate or
                 abstract, hospital bills, and a valid ID.
             </p>
             <p>Types of Medical Assistance:</p>
