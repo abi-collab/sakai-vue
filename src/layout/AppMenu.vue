@@ -151,7 +151,7 @@ const model = ref([
                 to: '/officers'
             },
             {
-                label: 'Stories',
+                label: 'Success Stories',
                 icon: 'pi pi-fw pi-comment',
                 to: '/stories'
             },
