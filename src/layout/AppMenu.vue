@@ -7,7 +7,10 @@ import pagcor from '@/assets/logo/pagcor.png';
 import pcso from '@/assets/logo/pcso.png';
 import pms from '@/assets/logo/pms.png';
 import spao from '@/assets/logo/spao.png';
+import sss from '@/assets/logo/sss.jpg';
 
+import cwsn from '@/assets/logo/cwsn.jpeg';
+import patientCare from '@/assets/logo/patient_care.png';
 //flats
 
 import { ref } from 'vue';
@@ -40,10 +43,86 @@ const model = ref([
     //     ]
     // },
     {
-        label: 'Government Agencies',
+        label: 'Government',
         icon: 'pi pi-fw pi-briefcase',
         to: '/pages',
         items: [
+            {
+                label: 'Agency',
+                items: [
+                    {
+                        label: 'DOH',
+                        icon: 'pi pi-fw pi-globe',
+                        logo: doh,
+                        to: '/doh'
+                    },
+                    {
+                        label: 'DSWD',
+                        icon: 'pi pi-fw pi-globe',
+                        logo: dswd,
+                        to: '/dswd'
+                    },
+                    {
+                        label: 'OP',
+                        icon: 'pi pi-fw pi-globe',
+                        logo: op,
+                        to: '/op'
+                    },
+                    {
+                        label: 'OVP',
+                        icon: 'pi pi-fw pi-globe',
+                        logo: ovp,
+                        to: '/ovp'
+                    },
+                    {
+                        label: 'PAGCOR',
+                        icon: 'pi pi-fw pi-globe',
+                        logo: pagcor,
+                        to: '/pagcor'
+                    },
+                    {
+                        label: 'PCSO',
+                        icon: 'pi pi-fw pi-globe',
+                        logo: pcso,
+                        to: '/pcso'
+                    },
+                    {
+                        label: 'PMS',
+                        icon: 'pi pi-fw pi-globe',
+                        logo: pms,
+                        to: '/pms'
+                    },
+                    {
+                        label: 'SPAO',
+                        icon: 'pi pi-fw pi-globe',
+                        logo: spao,
+                        to: '/spao'
+                    },
+                    {
+                        label: 'SSS',
+                        icon: 'pi pi-fw pi-globe',
+                        logo: sss,
+                        to: '/sss'
+                    }
+                ]
+            },
+            {
+                label: 'Area of Focus',
+                items: [
+                    {
+                        label: 'CWSN',
+                        icon: 'pi pi-fw pi-globe',
+                        logo: cwsn,
+                        to: '/cwsn'
+                    },
+                    {
+                        label: 'Patient Care',
+                        icon: 'pi pi-fw pi-globe',
+                        logo: patientCare,
+                        to: '/patient-care'
+                    }
+                ]
+            }
             // {
             //     label: 'Landing',
             //     icon: 'pi pi-fw pi-globe',
@@ -85,90 +164,11 @@ const model = ref([
             //     icon: 'pi pi-fw pi-circle-off',
             //     to: '/pages/empty'
             // }
+        ]
+    },
 
-            {
-                label: 'DOH',
-                icon: 'pi pi-fw pi-globe',
-                logo: doh,
-                to: '/doh'
-            },
-            {
-                label: 'DSWD',
-                icon: 'pi pi-fw pi-globe',
-                logo: dswd,
-                to: '/dswd'
-            },
-            {
-                label: 'OP',
-                icon: 'pi pi-fw pi-globe',
-                logo: op,
-                to: '/op'
-            },
-            {
-                label: 'OVP',
-                icon: 'pi pi-fw pi-globe',
-                logo: ovp,
-                to: '/ovp'
-            },
-            // {
-            //     label: 'PACE',
-            //     icon: 'pi pi-fw pi-globe',
-            //     logo: pace,
-            //     to: '/pace'
-            // },
-            {
-                label: 'PAGCOR',
-                icon: 'pi pi-fw pi-globe',
-                logo: pagcor,
-                to: '/pagcor'
-            },
-            {
-                label: 'PCSO',
-                icon: 'pi pi-fw pi-globe',
-                logo: pcso,
-                to: '/pcso'
-            },
-            {
-                label: 'PMS',
-                icon: 'pi pi-fw pi-globe',
-                logo: pms,
-                to: '/pms'
-            },
-            {
-                label: 'SPAO',
-                icon: 'pi pi-fw pi-globe',
-                logo: spao,
-                to: '/spao'
-            },
-            {
-                label: 'SSS',
-                icon: 'pi pi-fw pi-globe',
-                logo: '',
-                to: '/sss'
-            }
-        ]
-    },
     {
-        label: 'Others',
-        icon: 'pi pi-fw pi-briefcase',
-        to: '/pages',
-        items: [
-            {
-                label: 'CWSN',
-                icon: 'pi pi-fw pi-globe',
-                logo: '',
-                to: '/cwsn'
-            },
-            {
-                label: 'Patient Care',
-                icon: 'pi pi-fw pi-globe',
-                logo: '',
-                to: '/patient-care'
-            }
-        ]
-    },
-    {
-        label: 'Cavite Stake Info',
+        label: 'Cavite Stake',
         items: [
             {
                 label: 'Officers',
