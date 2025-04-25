@@ -156,6 +156,11 @@ const router = createRouter({
                     name: 'spao',
                     component: () => import('@/views/pages/govAgencies/SPAO.vue')
                 },
+                {
+                    path: '/sss',
+                    name: 'sss',
+                    component: () => import('@/views/pages/govAgencies/SSS.vue')
+                },
 
                 {
                     path: '/officers',
@@ -171,6 +176,23 @@ const router = createRouter({
                     path: '/about',
                     name: 'about',
                     component: () => import('@/views/pages/About.vue')
+                },
+                {
+                    path: '/history',
+                    name: 'history',
+                    component: () => import('@/views/pages/History.vue')
+                },
+                ///////////////////////////// others
+
+                {
+                    path: '/cwsn',
+                    name: 'children-with-special-needs',
+                    component: () => import('@/views/pages/Other/ChildWithSpecialNeeds.vue')
+                },
+                {
+                    path: '/patient-care',
+                    name: 'Patient Care',
+                    component: () => import('@/views/pages/Other/PatientCare.vue')
                 }
             ]
         },

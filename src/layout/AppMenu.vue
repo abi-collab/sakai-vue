@@ -139,11 +139,36 @@ const model = ref([
                 icon: 'pi pi-fw pi-globe',
                 logo: spao,
                 to: '/spao'
+            },
+            {
+                label: 'SSS',
+                icon: 'pi pi-fw pi-globe',
+                logo: '',
+                to: '/sss'
             }
         ]
     },
     {
         label: 'Others',
+        icon: 'pi pi-fw pi-briefcase',
+        to: '/pages',
+        items: [
+            {
+                label: 'CWSN',
+                icon: 'pi pi-fw pi-globe',
+                logo: '',
+                to: '/cwsn'
+            },
+            {
+                label: 'Patient Care',
+                icon: 'pi pi-fw pi-globe',
+                logo: '',
+                to: '/patient-care'
+            }
+        ]
+    },
+    {
+        label: 'Cavite Stake Info',
         items: [
             {
                 label: 'Officers',
@@ -159,6 +184,11 @@ const model = ref([
                 label: 'About',
                 icon: 'pi pi-fw pi-info-circle',
                 to: '/about'
+            },
+            {
+                label: 'History',
+                icon: 'pi pi-fw pi-info-circle',
+                to: '/history'
             }
         ]
     }
