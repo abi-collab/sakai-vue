@@ -36,6 +36,10 @@ const { toggleMenu, toggleDarkMode, isDarkTheme } = useLayout();
 
         <div class="layout-topbar-actions">
             <div class="layout-config-menu">
+                <!-- <button type="button" class="layout-topbar-action" @mouseenter="showTranslateElement">
+                    <i class="pi pi-search"></i>
+                </button> -->
+
                 <button type="button" class="layout-topbar-action" @click="toggleDarkMode">
                     <i :class="['pi', { 'pi-moon': isDarkTheme, 'pi-sun': !isDarkTheme }]"></i>
                 </button>
@@ -77,3 +81,28 @@ const { toggleMenu, toggleDarkMode, isDarkTheme } = useLayout();
         </div>
     </div>
 </template>
+
+<style scoped>
+.goog-te-gadget .goog-te-combo {
+    font-family: 'Your Custom Font', sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    border-radius: 5px;
+    appearance: none; /* Remove default arrow in some browsers */
+    background-image: url('path/to/your/custom-arrow.png'); /* Add custom arrow */
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 25px; /* Adjust padding for the arrow */
+}
+
+.goog-te-gadget .goog-te-combo:hover {
+    border-color: #666;
+}
+
+.goog-te-gadget .goog-te-combo option {
+    padding: 6px;
+}
+</style>
