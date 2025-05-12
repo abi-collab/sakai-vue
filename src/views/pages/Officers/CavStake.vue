@@ -20,6 +20,7 @@ import placeholder from '@/assets/Officers/placeholder.jpg';
 //spao
 import gracia from '@/assets/Officers/gracia.jpg';
 import jaydg from '@/assets/Officers/jaydg.jpg';
+import maricel from '@/assets/Officers/maricel.jpg';
 //patient care
 import reynaldoDG from '@/assets/Officers/reynaldoDG.jpg';
 
@@ -166,7 +167,7 @@ const spao = [
     {
         name: 'Maricel Depano',
         position: 'SPAO Specialist',
-        image: placeholder,
+        image: maricel,
         phone: '---',
         ward: 'Cavite 2nd'
     },
@@ -273,18 +274,18 @@ const patientCare = [
 
 const community_and_local = [
     {
-        name: 'Francsis Soberano',
-        position: 'Local Government Resources Specialist',
-        image: francis,
-        phone: '---',
-        ward: 'Stake President'
-    },
-    {
         name: 'Albert Maquimot',
         position: 'Community Resources Specialist',
         image: albert,
         phone: '---',
         ward: 'Stake Presidency 1st Counselor'
+    },
+    {
+        name: 'Francsis Soberano',
+        position: 'Local Government Resources Specialist',
+        image: francis,
+        phone: '---',
+        ward: 'Stake President'
     },
     {
         name: 'Noel Montemayor',
