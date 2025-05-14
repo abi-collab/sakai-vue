@@ -161,6 +161,11 @@ const router = createRouter({
                     name: 'sss',
                     component: () => import('@/views/pages/govAgencies/SSS.vue')
                 },
+                {
+                    path: '/malasakit',
+                    name: 'malasakit',
+                    component: () => import('@/views/pages/govAgencies/Malasakit.vue')
+                },
 
                 {
                     path: '/officers',

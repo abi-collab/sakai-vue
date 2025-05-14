@@ -7,7 +7,8 @@ import pagcor from '@/assets/logo/pagcor.png';
 import pcso from '@/assets/logo/pcso.png';
 import pms from '@/assets/logo/pms.png';
 import spao from '@/assets/logo/spao.png';
-import sss from '@/assets/logo/sss.jpg';
+import sss from '@/assets/logo/sss2.png';
+import malasakit from '@/assets/logo/malasakit2.png';
 
 import cwsn from '@/assets/logo/cwsn.jpeg';
 import patientCare from '@/assets/logo/patient_care.png';
@@ -50,6 +51,12 @@ const model = ref([
             {
                 label: 'Agency',
                 items: [
+                    {
+                        label: 'MALASAKIT',
+                        icon: 'pi pi-fw pi-globe',
+                        logo: malasakit,
+                        to: '/malasakit'
+                    },
                     {
                         label: 'DOH',
                         icon: 'pi pi-fw pi-globe',

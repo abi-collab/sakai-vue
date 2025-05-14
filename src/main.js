@@ -8,9 +8,12 @@ import ConfirmationService from 'primevue/confirmationservice';
 import ToastService from 'primevue/toastservice';
 
 import '@/assets/styles.scss';
+import VueImageZoomer from 'vue-image-zoomer';
+import 'vue-image-zoomer/dist/style.css';
 
 const app = createApp(App);
 
+app.use(VueImageZoomer);
 app.use(router);
 app.use(PrimeVue, {
     theme: {

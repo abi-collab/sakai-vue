@@ -1,0 +1,702 @@
+[
+    {
+        "region": "NCR",
+        "name_of_facility": "NCR CENTER FOR HEALTH DEVELOPMENT",
+        "contact_number": "8531-0037 loc. 101/102",
+        "contact_person": "Kirsty Ilynne Gayle M. Navarro / Cathlyn Kate P. Castaneda",
+        "email": "ncro.dohmap@yahoo.com"
+    },
+    {
+        "region": "NCR",
+        "name_of_facility": "AMANG RODRIGUEZ MEMORIAL MEDICAL CENTER",
+        "contact_number": "8941-5854 loc. 111",
+        "contact_person": "Lucila S. Arvesu, RSW",
+        "email": "mswd@armmc.doh.gov.ph wd@gmail.com"
+    },
+    {
+        "region": "NCR",
+        "name_of_facility": "DR. JOSE FABELLA MEMORIAL HOSPITAL",
+        "contact_number": "0917-525-9952 62 to 65 loc. 112",
+        "contact_person": "Ms. Rowena A. Sumera,RSW",
+        "email": "fabellamswd2@gmail.com"
+    },
+    {
+        "region": "NCR",
+        "name_of_facility": "DR. JOSE N. RODRIGUEZ MEMORIAL HOSPITAL AND SANITARIUM",
+        "contact_number": "8294-2571 to 73 local 127",
+        "contact_person": "Alydia C. Soberano, RSW",
+        "email": "malasakitcenter.tala@gmail.com"
+    },
+    {
+        "region": "NCR",
+        "name_of_facility": "EAST AVENUE MEDICAL CENTER",
+        "contact_number": "8928-06-11 loc. 201",
+        "contact_person": "Elisa A. Abellar, RSW, mSW",
+        "email": "mswd@eamc.doh.gov.ph"
+    },
+    {
+        "region": "NCR",
+        "name_of_facility": "JOSE REYES MEMORIAL MEDICAL CENTER",
+        "contact_number": "8711-9491 loc 203",
+        "contact_person": "Arlene M. Sabdao, RSW, MSW",
+        "email": "jrrmmc.maip@gmail.com, amsabdao@yahoo.com"
+    },
+    {
+        "region": "NCR",
+        "name_of_facility": "LAS PIÑAS GENERAL HOSPITAL AND TRAUMA CENTER",
+        "contact_number": "8873-0556/88249434 loc-368",
+        "contact_person": "Maricon T. Rosario, RSW",
+        "email": "lpghstcmsws@gmail.com"
+    },
+    {
+        "region": "NCR",
+        "name_of_facility": "NATIONAL CENTER FOR MENTAL HEALTH",
+        "contact_number": "853-19001 loc. 1002",
+        "contact_person": "Jhomel P. Cabuang, RSW, MMHoA",
+        "email": "ncmhsocialservice@gmail.com undad@ncmh.com.ph"
+    },
+    {
+        "region": "NCR",
+        "name_of_facility": "NATIONAL CHILDREN’S HOSPITAL",
+        "contact_number": "87240656-59 local 114",
+        "contact_person": "Rosemarie J. Catap, RSW, MSW",
+        "email": "mss@nch.doh.gov.ph e_catap@yahoo.com"
+    },
+    {
+        "region": "NCR",
+        "name_of_facility": "PHILIPPINE ORTHOPEDIC CENTER",
+        "contact_number": "8711-4276 local 236",
+        "contact_person": "Felicitas T. Zafranco, RSW",
+        "email": "pocmswdmaip@gmail.com"
+    },
+    {
+        "region": "NCR",
+        "name_of_facility": "QUIRINO MEMORIAL MEDICAL CENTER",
+        "contact_number": "5304-9800 loc. 7012",
+        "contact_person": "Edna Cruz, RSW, MPA",
+        "email": "mss.qmmc2013@gmail.com"
+    },
+    {
+        "region": "NCR",
+        "name_of_facility": "RESEARCH INSTITUTE FOR TROPICAL MEDECINE",
+        "contact_number": "(8) 809-7599",
+        "contact_person": "Letecia N. San Juan,RSW",
+        "email": "lsanjuan0710@gmail.com"
+    },
+    {
+        "region": "NCR",
+        "name_of_facility": "RIZAL MEDICAL CENTER",
+        "contact_number": "8672-2676 8-916-9571",
+        "contact_person": "Luningning R. Bañocia, RSW",
+        "email": "luningning.banocia@rmc.doh.gov.ph @rmc.doh.gov.ph"
+    },
+    {
+        "region": "NCR",
+        "name_of_facility": "SAN LAZARO HOSPITAL",
+        "contact_number": "732-3777 loc 104",
+        "contact_person": "rissa U. Cabrera, RSW, MSW",
+        "email": "marissaucabrera@gmail.com medicalsocialservice.hopss.slh@gmail.com mssprinting2021@gmail.com"
+    },
+    {
+        "region": "NCR",
+        "name_of_facility": "SAN LORENZO RUIZ GENERAL HOSPITAL",
+        "contact_number": "8294-4855/0977-2940895",
+        "contact_person": "Maria Cecilia G. Calimlim",
+        "email": "slrgh.msws@gmail.com gmail.com"
+    },
+    {
+        "region": "NCR",
+        "name_of_facility": "TONDO MEDICAL CENTER",
+        "contact_number": "8865-9000 local 1002",
+        "contact_person": "John Roe Balbin, RSW",
+        "email": "mss@tmc.doh.gov.ph"
+    },
+    {
+        "region": "NCR",
+        "name_of_facility": "VALENZUELA MEDICAL CENTER",
+        "contact_number": "8294-67-11 loc.134",
+        "contact_person": "Helen M. Mendoza,RSW",
+        "email": "hmendoza.vmc@gmail.com vmcmsws@gmail.com"
+    },
+    {
+        "region": "NCR",
+        "name_of_facility": "LUNG CENTER OF THE PHILIPPINES",
+        "contact_number": "89246101 loc.4002",
+        "contact_person": "Donnabelle G. Arcillo, RSW, MSW",
+        "email": "socialservice@lcp.gov.ph"
+    },
+    {
+        "region": "NCR",
+        "name_of_facility": "NATIONAL KIDNEY AND TRANSPLANT INSTITUE",
+        "contact_number": "8981-0300 loc. 1002",
+        "contact_person": "onides L. Basada, RSW",
+        "email": "mssd@nkti.gov.ph ti.gov.ph"
+    },
+    {
+        "region": "NCR",
+        "name_of_facility": "PHILIPPINE HEART CENTER",
+        "contact_number": "8925-2401 loc. 3251/ 3200",
+        "contact_person": "Mercy De Jesus, RSW",
+        "email": "socialservice@phc.gov.ph"
+    },
+    {
+        "region": "NCR",
+        "name_of_facility": "PHILIPPINE CHILDREN’S MEDICAL CENTER",
+        "contact_number": "8588-9900 local 417",
+        "contact_person": "Emily Sanchez, RSW",
+        "email": "mss@pcmc.gov.ph/medicalsocial1129@gmail.com"
+    },
+    {
+        "region": "NCR",
+        "name_of_facility": "OSPITAL NG MUNTINLUPA",
+        "contact_number": "7710457 to 63",
+        "contact_person": "Marie Eugenie Arcilla, RSW",
+        "email": "osmun_ssd@yahoo.com"
+    },
+    {
+        "region": "NCR",
+        "name_of_facility": "PHILIPPINE GENERAL HOSPITAL",
+        "contact_number": "(02) 8554-84-00 Loc. 2002",
+        "contact_person": "Daisy L. Manlangit, MSW ; Rowena C. Cruzado",
+        "email": "dlmanlangit@up.edu.ph rccruzado@up.edu.ph"
+    },
+    {
+        "region": "NCR",
+        "name_of_facility": "PNP GENERAL HOSPITAL",
+        "contact_number": "(02) 8723-0401 loc. 6874",
+        "contact_person": "NUP APRIL SANTOS",
+        "email": "pnpghmc.doh@gmail.com"
+    },
+    {
+        "region": "NCR",
+        "name_of_facility": "VETERANS MEMORIAL MEDICAL CENTER",
+        "contact_number": "(02) 8927 6426",
+        "contact_person": "MS. GILMA T. MORTEGA",
+        "email": "veteransmed@gmail.com"
+    },
+    {
+        "region": "ILOCOS REGION",
+        "name_of_facility": "ILOCOS CENTER FOR HEALTH DEVELOPMENT",
+        "contact_number": "(072) 607-6413 loc. 225",
+        "contact_person": "GUDELIA M. TE, MDA",
+        "email": "gudeliate@yahoo.com maip@ilocos.doh.gov.ph"
+    },
+    {
+        "region": "ILOCOS REGION",
+        "name_of_facility": "CONRADO F. ESTRELLA F. REGIONAL MEDICAL AND TRAUMA CENTER",
+        "contact_number": "(075) 529-6863",
+        "contact_person": "Regine D. Tabugan, RSW",
+        "email": "mswd.cfermtc@gmail.com"
+    },
+    {
+        "region": "ILOCOS REGION",
+        "name_of_facility": "ILOCOS TRAINING & REGIONAL MEDICAL CENTER",
+        "contact_number": "(072) 700-37-19 22 18 local 109",
+        "contact_person": "EXUR KELLY MENZI, RSW, MSW",
+        "email": "itrmc.socialservice2020@gmail.com"
+    },
+    {
+        "region": "ILOCOS REGION",
+        "name_of_facility": "MARIANO MARCOS MEMORIAL HOSPITAL",
+        "contact_number": "600-8000",
+        "contact_person": "David James Aniñon, CPA Evangeline C. Cid, RSW",
+        "email": "mmmhmc.finance.maip@gmail.com mss.mmmhmc@gmail.com"
+    },
+    {
+        "region": "ILOCOS REGION",
+        "name_of_facility": "REGION 1 MEDICAL CENTER",
+        "contact_number": "(075) 515-8916",
+        "contact_person": "BRENDA U. CHAN, RSW/ JO ANNE E. ESMENDA, RSW",
+        "email": "brenurbanochan@gmail.com/r1mc.malasakit@gmail.com"
+    },
+    {
+        "region": "CAGAYAN VALLEY",
+        "name_of_facility": "CAGAYAN VALLEY CENTER FOR HEALTH DEVELOPMENT",
+        "contact_number": "304-6585, 304-8737",
+        "contact_person": "Atty, Aurea Baliat",
+        "email": "cvchd.maip@gmail.com"
+    },
+    {
+        "region": "CAGAYAN VALLEY",
+        "name_of_facility": "BATANES GENERAL HOSPITAL",
+        "contact_number": "9287558213",
+        "contact_person": "MARINETH A. BALDERAS",
+        "email": "batanesgenhosp.mss@gmail.com"
+    },
+    {
+        "region": "CAGAYAN VALLEY",
+        "name_of_facility": "CAGAYAN VALLEY MEDICAL CENTER",
+        "contact_number": "302-0000 loc 405",
+        "contact_person": "Catherine C. Mendoza, RSW, MSSW",
+        "email": "cvmc.mss@gmail.com/ cvmc.maip@gmail.com"
+    },
+    {
+        "region": "CAGAYAN VALLEY",
+        "name_of_facility": "REGION II TRAUMA AND MEDICAL CENTER",
+        "contact_number": "078-805-3560",
+        "contact_person": "MARIVIC T. ORIG, RSW",
+        "email": "mttaguilingorig@gmail.com r2tmc.medicalsocialworksection@gmail.com"
+    },
+    {
+        "region": "CAGAYAN VALLEY",
+        "name_of_facility": "SOUTHERN ISABELA MEDICAL CENTER",
+        "contact_number": "078-307-2637",
+        "contact_person": "GERMILINA C. DE VERA, RSW",
+        "email": "mssogdv123@gmail.com"
+    },
+    {
+        "region": "CAR",
+        "name_of_facility": "CAR CENTER FOR HEALTH DEVELOPMENT",
+        "contact_number": "(074) 443 4858 loc. 102",
+        "contact_person": "MARTHA L. BANIA-AO",
+        "email": "dohcarmap@gmail.com"
+    },
+    {
+        "region": "CAR",
+        "name_of_facility": "BAGUIO GENERAL HOSPITAL AND MEDICAL CENTER",
+        "contact_number": "(074) 661-7933 loc. 223",
+        "contact_person": "METZI B. AGLAYEN",
+        "email": "bghmc.mswd@gmail.com"
+    },
+    {
+        "region": "CAR",
+        "name_of_facility": "CONNER DISTRICT HOSPITAL",
+        "contact_number": "9069528092",
+        "contact_person": "PERLITA U. CULDONG, RSW, MPA",
+        "email": "culdongperlita@gmail.com"
+    },
+    {
+        "region": "CAR",
+        "name_of_facility": "FAR NORTH LUZON GENERAL HOSPITAL",
+        "contact_number": "0966-379-7253",
+        "contact_person": "BRENDA B. BAYANI",
+        "email": "brenda.bayani@fnlghtc.doh.gov.ph"
+    },
+    {
+        "region": "CAR",
+        "name_of_facility": "LUIS HORA MEMORIAL REGIONAL HOSPITAL",
+        "contact_number": "9190066588",
+        "contact_person": "JESYN I. KIBITEN",
+        "email": "isynje0823@gmail.com"
+    },
+    {
+        "region": "CENTRAL LUZON",
+        "name_of_facility": "CENTRAL LUZON CENTER FOR HEALTH DEVELOPMENT",
+        "contact_number": "(045) 861-3425 ocal 101",
+        "contact_person": "CATHERINE S. SURIL,RN, MAN",
+        "email": "catherinesuril17@gmail.com maip@centralluzon.doh.gov.ph"
+    },
+    {
+        "region": "CENTRAL LUZON",
+        "name_of_facility": "BATAAN GENERAL HOSPITAL AND MEDICAL CENTER",
+        "contact_number": "(047) 237 3635",
+        "contact_person": "GLORIA T. CANTA, RSW, MSW DANMARIE J. LUTAP, RSW",
+        "email": "mssbataanghmc@gmail.com"
+    },
+    {
+        "region": "CENTRAL LUZON",
+        "name_of_facility": "DR. PAULINO GARCIA MEMORIAL HOSPITAL",
+        "contact_number": "(044) 806-6234",
+        "contact_person": "MARVIN L. AGUSTIN, RSW/ MARRA JIM DG. MUÑEZ",
+        "email": "marvinagustin31@gmail.com"
+    },
+    {
+        "region": "CENTRAL LUZON",
+        "name_of_facility": "JOSE B. LINGAD MEMORIAL GENERAL HOSPITAL",
+        "contact_number": "(045) 409-6688 loc. 2125 652-2775",
+        "contact_person": "JOVITA S. BAYBAYAN, RSW A MAE M. BARTOLO",
+        "email": "jblmrh.mss0405@gmail.com"
+    },
+    {
+        "region": "CENTRAL LUZON",
+        "name_of_facility": "MARIVELES MENTAL WELLNESS AND GENERAL HOSPITAL",
+        "contact_number": "9688526726",
+        "contact_person": "JENNIFER D. CARAGDAG",
+        "email": "billing.mmwgh@gmail.com"
+    },
+    {
+        "region": "CENTRAL LUZON",
+        "name_of_facility": "TALAVERA GENERAL HOSPITAL",
+        "contact_number": "9204070768",
+        "contact_person": "WILMA W. TUDLA RSW",
+        "email": "socialservicete@yahoo.com.ph"
+    },
+    {
+        "region": "CENTRAL LUZON",
+        "name_of_facility": "JONI VILLANUEVA GENERAL HOSPITAL",
+        "contact_number": "0917 301 0749",
+        "contact_person": "JAMAICA B. MIGUEL, RSW",
+        "email": "jvghsocialservices@gmail.com"
+    },
+    {
+        "region": "CALABARZON",
+        "name_of_facility": "CALABARZON CENTER FOR HEALTH DEVELOPMENT",
+        "contact_number": "(02) 8249 2000",
+        "contact_person": "AIZA T. VILLEGAS, RN",
+        "email": "map2016dohro4a@gmail.com chantalirlandezatienza.maip4a@gmail.com"
+    },
+    {
+        "region": "CALABARZON",
+        "name_of_facility": "BATANGAS MEDICAL CENTER",
+        "contact_number": "(043)740-802 to 07 loc 1120",
+        "contact_person": "DINAH M. BAGUI, RSW",
+        "email": "dinahmbagui@yahoo.com"
+    },
+    {
+        "region": "CALABARZON",
+        "name_of_facility": "MARIA L. ELEAZAR GENERAL HOSPITAL",
+        "contact_number": "(042) 304 8738",
+        "contact_person": "CATHERINE F. DELLOSA, RSW",
+        "email": "mlegh.socialservice@gmail.com"
+    },
+    {
+        "region": "CALABARZON",
+        "name_of_facility": "SOUTHERN TAGALOG REGIONAL HOSPITAL",
+        "contact_number": "(046) 884-2800",
+        "contact_person": "ANGELICA B. AÑANO, RSW",
+        "email": "strh.medicalsocialservice@gmail.com"
+    },
+    {
+        "region": "MIMAROPA",
+        "name_of_facility": "MIMAROPA CENTER FOR HEALTH DEVELOPMENT",
+        "contact_number": "(02)8912-0195 loc 402",
+        "contact_person": "MELANIE A. CUEVAS",
+        "email": "maip@mimaropa.doh.gov.ph"
+    },
+    {
+        "region": "MIMAROPA",
+        "name_of_facility": "CULION SANITARIUM AND GENERAL HOSPITAL",
+        "contact_number": "9471417354",
+        "contact_person": "ELEANORE C. ABREU, RSW",
+        "email": "medicalsocialservicecsgh@gmail.com"
+    },
+    {
+        "region": "MIMAROPA",
+        "name_of_facility": "OSPITAL NG PALAWAN",
+        "contact_number": "(048) 434-2148",
+        "contact_person": "TAJMAHAL J. GO-ALCANTARA, RSW",
+        "email": "onp.medsocworksection@gmail.com"
+    },
+    {
+        "region": "BICOL",
+        "name_of_facility": "BICOL CENTER FOR HEALTH DEVELOPMENT",
+        "contact_number": "(052) 742-5555 loc.5001",
+        "contact_person": "JESSA MAE JARILLA",
+        "email": "maip.doh5@gmail.com ohbicol@gmail.com"
+    },
+    {
+        "region": "BICOL",
+        "name_of_facility": "BICOL MEDICAL CENTER",
+        "contact_number": "(054) 472-6125 to 31 local 1103",
+        "contact_person": "EDNA S. CIUDADANO, RSW",
+        "email": "bmcore14@gmail.com"
+    },
+    {
+        "region": "BICOL",
+        "name_of_facility": "BICOL REGION GENERAL HOSPITAL AND GERIATRIC MEDICAL CENTER",
+        "contact_number": "(054)473-2244 472-4422 881-1761",
+        "contact_person": "MARYNIA A. RANESES, RSW DAISY L. LI, RSW",
+        "email": "brghgmc.socialservice@gmail.com"
+    },
+    {
+        "region": "BICOL",
+        "name_of_facility": "BICOL REGIONAL TRAINING & TEACHING HOSPITAL",
+        "contact_number": "(052) 483 – 0016",
+        "contact_person": "GERALENE FATIMA O. YAP, RSW, MSSW",
+        "email": "brtthsocialservice@yahoo.com"
+    },
+    {
+        "region": "WESTERN VISAYAS",
+        "name_of_facility": "WESTERN VISAYAS CENTER FOR HEALTH DEVELOPMENT",
+        "contact_number": "0908-8741797",
+        "contact_person": "Jessel C. Gellada, MD, MPM- HSD  D. LANDERO",
+        "email": "jcgellada1029@gmail.com cro6@gmail.com"
+    },
+    {
+        "region": "WESTERN VISAYAS",
+        "name_of_facility": "CORAZON LOCSIN-MONTELIBANO MEMORIAL",
+        "contact_number": "(034) 433-2697",
+        "contact_person": "NORIE D. AGRIAM, RSW",
+        "email": "norieagriam2269@gmail.com"
+    },
+    {
+        "region": "WESTERN VISAYAS",
+        "name_of_facility": "DON JOSE S. MONFORT MEDICAL CENTER",
+        "contact_number": "(033) 361 2011 361 2009/ (033) 361-2011 26-0555",
+        "contact_person": "MARK JOESAN A. DIZON, RSW",
+        "email": "djsmmcehmalasakitcenter@gmail.com"
+    },
+    {
+        "region": "WESTERN VISAYAS",
+        "name_of_facility": "WESTERN VISAYAS MEDICAL CENTER",
+        "contact_number": "9173029314",
+        "contact_person": "PATRICIA REGINA Y. VILLAFLOR, RSW",
+        "email": "medicalsocialwork.wvmc@gmail.com iareginavillaflor@yahoo.com"
+    },
+    {
+        "region": "WESTERN VISAYAS",
+        "name_of_facility": "WESTERN VISAYAS SANITARIUM AND GENERAL HOSPITAL",
+        "contact_number": "523-9515",
+        "contact_person": "ROCHELLE R. TRAVIÑA, RSW",
+        "email": "wvssocialservice@gmail.com"
+    },
+    {
+        "region": "CENTRAL VISAYAS",
+        "name_of_facility": "CENTRAL VISAYAS CENTER FOR HEALTH DEVELOPMENT",
+        "contact_number": "(032) 260-9740 Loc 111",
+        "contact_person": "CHERYL B. OBILLO",
+        "email": "cherylobillo@yahoo.com"
+    },
+    {
+        "region": "CENTRAL VISAYAS",
+        "name_of_facility": "DON EMILIO DEL VALLE MEMORIAL HOSPITAL",
+        "contact_number": "9176850847",
+        "contact_person": "Vilma Gualin, RSW",
+        "email": "vilmagualin@gmail.com"
+    },
+    {
+        "region": "CENTRAL VISAYAS",
+        "name_of_facility": "EVERSLEY CHILD SANITARIUM",
+        "contact_number": "(032) 346-2468",
+        "contact_person": "Jean Nica G. Bacaling, RSW",
+        "email": "jeannicabacaling@gmail.com"
+    },
+    {
+        "region": "CENTRAL VISAYAS",
+        "name_of_facility": "GOV. CELESTINO GALLARES MEMORIAL HOSPITAL",
+        "contact_number": "9178121668",
+        "contact_person": "Estreliita Orevillo, RSW",
+        "email": "telskie@yahoo.com"
+    },
+    {
+        "region": "CENTRAL VISAYAS",
+        "name_of_facility": "ST. ANTHONY MOTHER AND CHILD HOSPITAL",
+        "contact_number": "(032) 261-9989",
+        "contact_person": "Rochel L Buco",
+        "email": "samchmswd@gmail.com"
+    },
+    {
+        "region": "CENTRAL VISAYAS",
+        "name_of_facility": "CEBU SOUTH MEDICAL CENTER (Former Talisay District Hospital)",
+        "contact_number": "(032) 273-3226",
+        "contact_person": "Arnel G. Gerona,RSW",
+        "email": "tdh.socialservice19@gmail.com"
+    },
+    {
+        "region": "CENTRAL VISAYAS",
+        "name_of_facility": "VICENTE SOTTO MEMORIAL MEDICAL CENTER",
+        "contact_number": "(032) 253 9891",
+        "contact_person": "Mergin D. Acido",
+        "email": "acido.mergin@gmail.com"
+    },
+    {
+        "region": "EASTERN VISAYAS",
+        "name_of_facility": "EASTERN VISAYAS CENTER FOR HEALTH DEVELOPMENT",
+        "contact_number": "9260715902",
+        "contact_person": "Princess Debie Garcia, RN",
+        "email": "dohmaip.region8@gmail.com"
+    },
+    {
+        "region": "EASTERN VISAYAS",
+        "name_of_facility": "EASTERN VISAYAS REGIONAL MEDICAL CENTER",
+        "contact_number": "(053) 832-5309",
+        "contact_person": "RACHIEL L. QUILARIO, RSW",
+        "email": "ms.quilario@gmail.com"
+    },
+    {
+        "region": "EASTERN VISAYAS",
+        "name_of_facility": "GOVERNOR BENJAMIN T. ROMUALDEZ GENERAL HOSPITAL AND SCHISTOSOMIASIS CENTER",
+        "contact_number": "(053) 832-0157",
+        "contact_person": "ANALITA A. CESISTA, RSW",
+        "email": "schistomss@gmail.com"
+    },
+    {
+        "region": "ZAMBOANGA PENINSULA",
+        "name_of_facility": "ZAMBOANGA PENINSULA CENTER FOR HEALTH DEVELOPMENT",
+        "contact_number": "(062) 983-0314",
+        "contact_person": "MARLYN B. TAROY",
+        "email": "ro9budget_doh@yahoo.com"
+    },
+    {
+        "region": "ZAMBOANGA PENINSULA",
+        "name_of_facility": "BASILAN GENERAL HOSPITAL",
+        "contact_number": "9156629354",
+        "contact_person": "Ana Fe D. Musa, RSW",
+        "email": "annmusa10@gmail.com"
+    },
+    {
+        "region": "ZAMBOANGA PENINSULA",
+        "name_of_facility": "DR. JOSE RIZAL MEMORIAL HOSPITAL",
+        "contact_number": "(065)908-8310/ (065)908-8037 0919-607-9005",
+        "contact_person": "HAZEL G. PALER,RSW",
+        "email": "djrmhsocialwork@gmail.com"
+    },
+    {
+        "region": "ZAMBOANGA PENINSULA",
+        "name_of_facility": "LABUAN PUBLIC HOSPITAL",
+        "contact_number": "(062) 982 0029 0917-317-9055",
+        "contact_person": "ROSIBEL P. OLLER, RSW",
+        "email": "ollerrosibel@gmail.com"
+    },
+    {
+        "region": "ZAMBOANGA PENINSULA",
+        "name_of_facility": "MARGOSATUBIG REGIONAL HOSPITAL",
+        "contact_number": "0998-555-0747",
+        "contact_person": "Mier T. Africano, RSW",
+        "email": "mrh.msw08@gmail.com"
+    },
+    {
+        "region": "ZAMBOANGA PENINSULA",
+        "name_of_facility": "MINDANAO CENTRAL SANITARIUM",
+        "contact_number": "(062) 957-1494 0917-724-9481",
+        "contact_person": "MA CYNDRELL P. VILLANUEVA, RSW",
+        "email": "cpajente@gmail.com"
+    },
+    {
+        "region": "ZAMBOANGA PENINSULA",
+        "name_of_facility": "SULU SANITARIUM",
+        "contact_number": "(068) 84460047 58520",
+        "contact_person": "MUKIM H. SIBBA, RSW",
+        "email": "sibba.mukim@yahoo.com"
+    },
+    {
+        "region": "ZAMBOANGA PENINSULA",
+        "name_of_facility": "ZAMBOANGA CITY MEDICAL CENTER",
+        "contact_number": "(062)9912934/9920052 LOC 002 0917-795-6835",
+        "contact_person": "CRISELDA A. PALOMO, RSW",
+        "email": "crispalomo1118@gmail.com"
+    },
+    {
+        "region": "NORTHERN MINDANAO",
+        "name_of_facility": "NORTHERN MINDANAO CENTER FOR HEALTH DEVELOPMENT",
+        "contact_number": "858-7132 loc 222",
+        "contact_person": "JUVILYNN B. DINAMPO, MD",
+        "email": "jnbdinampo.hfdc.dohrox@gmail.com"
+    },
+    {
+        "region": "NORTHERN MINDANAO",
+        "name_of_facility": "FIRST MISAMIS ORIENTAL GENERAL HOSPITAL",
+        "contact_number": "9366761887",
+        "contact_person": "RACQUEL P. TEATRO, RSW",
+        "email": "king.teatro20@yahoo.com"
+    },
+    {
+        "region": "NORTHERN MINDANAO",
+        "name_of_facility": "CAMIGUIN GENERAL HOSPITAL",
+        "contact_number": "9209548617",
+        "contact_person": "MARIE ROYEN P. HORA, RSW",
+        "email": "medicalsocialservice2022@gmail.com"
+    },
+    {
+        "region": "NORTHERN MINDANAO",
+        "name_of_facility": "AMAI PAKPAK MEDICAL CENTER",
+        "contact_number": "9178990640",
+        "contact_person": "MYRA L. DIAMLA, RSW",
+        "email": "mytalah12@gmail.com"
+    },
+    {
+        "region": "NORTHERN MINDANAO",
+        "name_of_facility": "MAYOR HILARION RAMIRO SR. MEDICAL CENTER",
+        "contact_number": "(088) 521-0440 0917-621-1337",
+        "contact_person": "GRIFFITH R. EGBUS, RSW",
+        "email": "mharsmc18@gmail.com"
+    },
+    {
+        "region": "NORTHERN MINDANAO",
+        "name_of_facility": "NORTHERN MINDANAO MEDICAL CENTER",
+        "contact_number": "(08822) 72-63-62 loc. 607",
+        "contact_person": "YVONNE F. PEREZ, RSW, MM",
+        "email": "nmmc.msws@gmail.com"
+    },
+    {
+        "region": "DAVAO REGION",
+        "name_of_facility": "DAVAO CENTER FOR HEALTH DEVELOPMENT",
+        "contact_number": "(082) 227-4073",
+        "contact_person": "MAHADEAH C. EMBERGA",
+        "email": "map.doh11@gmail.com"
+    },
+    {
+        "region": "DAVAO REGION",
+        "name_of_facility": "DAVAO OCCIDENTAL GENERAL HOSPITAL",
+        "contact_number": "0916-300-2675",
+        "contact_person": "KIM GERARD F. ASPACIO, RSW",
+        "email": "aspaciokimgerard@gmail.com"
+    },
+    {
+        "region": "DAVAO REGION",
+        "name_of_facility": "DAVAO REGIONAL MEDICAL CENTER",
+        "contact_number": "(084) 829-7120 loc. 808/809",
+        "contact_person": "CHERRY C. VILLAN, RSW",
+        "email": "drmctagum.socialservice@gmail.com mss@drmc.doh.gov.ph"
+    },
+    {
+        "region": "DAVAO REGION",
+        "name_of_facility": "SOUTHERN PHILIPPINES MEDICAL CENTER",
+        "contact_number": "227-2731 loc 4103",
+        "contact_person": "PATRICK CELLIS",
+        "email": "maekhylamiguel@gmail.com medicaassistanceprogramspmc@gmail.com"
+    },
+    {
+        "region": "SOCCSKSARGEN",
+        "name_of_facility": "SOCCSKSARGEN CENTER FOR HEALTH DEVELOPMENT",
+        "contact_number": "(083)320-0280 loc. 3015",
+        "contact_person": "Maria Demetria A. Glemao",
+        "email": "demetglemao@yahoo.com medical.assistance.doh12@gmail.com"
+    },
+    {
+        "region": "SOCCSKSARGEN",
+        "name_of_facility": "SOCCSKSARGEN GENERAL HOSPITAL",
+        "contact_number": "(083) 238 5507",
+        "contact_person": "NSACO, RSW",
+        "email": "nonadonasco1016@gmail.com"
+    },
+    {
+        "region": "SOCCSKSARGEN",
+        "name_of_facility": "COTABATO SANITARIUM AND GENERAL HOSPITAL",
+        "contact_number": "(064) 552-2850",
+        "contact_person": "MOHAJERA S. MAMENTO, RSW, MSSW",
+        "email": "moji1124@gmail.com mss.cotsan@doh.gov.ph"
+    },
+    {
+        "region": "SOCCSKSARGEN",
+        "name_of_facility": "COTABATO REGIONAL MEDICAL CENTER",
+        "contact_number": "(064) 421-2192 421-2340 421-2022",
+        "contact_person": "SHIRLEY P. SALIK, RSW,MTSW",
+        "email": "flickersps@gmail.com/medicalsocialsericecrmc@gmail.com"
+    },
+    {
+        "region": "CARAGA",
+        "name_of_facility": "CARAGA CENTER FOR HEALTH DEVELOPMENT",
+        "contact_number": "(085) 3425208 loc. 116",
+        "contact_person": "MA. DOROTHY C. HORNIDO",
+        "email": "dothy718@yahoo.com"
+    },
+    {
+        "region": "CARAGA",
+        "name_of_facility": "ADELA SERRA TY MEMORIAL MEDICAL CENTER",
+        "contact_number": "(086) 211-3700/ 211-4306 0910-542-8969",
+        "contact_person": "MARILYN B. REMOLISAN, RSW",
+        "email": "remolisanm1@gmail.com"
+    },
+    {
+        "region": "CARAGA",
+        "name_of_facility": "SIARGAO ISLAND MEDICAL CENTER",
+        "contact_number": "9497387043",
+        "contact_person": "FLOREVY L. ODRONA, RSW",
+        "email": "ivylanguez@gmail.com"
+    },
+    {
+        "region": "CARAGA",
+        "name_of_facility": "CARAGA REGIONAL HOSPITAL",
+        "contact_number": "(086) – 826 – 0497 0920-960-6305/ 0917-717-4697",
+        "contact_person": "LOU FRANCIS P. SOLANA, RSW",
+        "email": "loufrancissolana@gmail.com"
+    },
+    {
+        "region": "BARMM",
+        "name_of_facility": "MINISTRY OF HEALTH BARMM",
+        "contact_number": "0917-702-0763",
+        "contact_person": "BABY NORBAINA M. CALUDTIAG, RN, MPA",
+        "email": "Bbnorbaina@gmail.com"
+    }
+]
