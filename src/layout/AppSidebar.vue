@@ -18,13 +18,15 @@ if (typeof window !== 'undefined') {
         <app-menu></app-menu>
         <div class="absolute bottom-0">
             <hr />
-            <div id="google_translate_element"></div>
+            <div id="google_translate_element" class="p-3 flex justify-center items-center bg-gray-50 rounded-b-lg shadow-inner">
+                <!-- The Google Translate widget will render the select here -->
+            </div>
         </div>
     </div>
 </template>
 
 <style lang="scss" scoped>
-#google_translate_element select {
+.goog-te-combo {
     background-color: #f0f0f0 !important;
     border: 1px solid #ccc !important;
     border-radius: 4px !important;
@@ -37,11 +39,11 @@ if (typeof window !== 'undefined') {
     -moz-appearance: none !important;
 }
 
-#google_translate_element select:hover {
+.goog-te-combo:hover {
     border-color: #888 !important;
 }
 
-#google_translate_element select:focus {
+.goog-te-combo:focus {
     border-color: #555 !important;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2) !important;
 }
