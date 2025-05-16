@@ -26,25 +26,22 @@ if (typeof window !== 'undefined') {
 </template>
 
 <style lang="scss" scoped>
+/* Custom styles for the Google Translate select input */
 .goog-te-combo {
-    background-color: #f0f0f0 !important;
-    border: 1px solid #ccc !important;
-    border-radius: 4px !important;
-    padding: 5px !important;
-    font-size: 14px !important;
-    color: #333 !important;
+    background-color: #f9fafb !important;
+    border: 1px solid #d1d5db !important;
+    border-radius: 6px !important;
+    padding: 6px 12px !important;
+    font-size: 15px !important;
+    color: #374151 !important;
     outline: none !important;
-    appearance: none !important;
-    -webkit-appearance: none !important;
-    -moz-appearance: none !important;
+    transition: border-color 0.2s;
 }
-
 .goog-te-combo:hover {
-    border-color: #888 !important;
+    border-color: #6366f1 !important;
 }
-
 .goog-te-combo:focus {
-    border-color: #555 !important;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2) !important;
+    border-color: #2563eb !important;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2) !important;
 }
 </style>

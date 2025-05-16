@@ -1,10 +1,10 @@
 <script setup></script>
 
 <template>
-    <div class="text-xl md:text-2xl grid place-items-center w-full mx-auto">
+    <div class="text-xl md:text-2xl w-full">
         <div class="relative">
             <!-- <div class="absolute inset-0 bg-gradient-radial from-green-200 via-white to-red-200 opacity-40"></div> -->
-            <div class="relative max-w-5xl mx-auto sm:px-6 px-8 py-8">
+            <div class="relative sm:px-6 px-8 py-8">
                 <h2 class="font-bold mb-8 text-3xl">Introducing GAMA: A Guide in Administering Medical Assistance</h2>
                 <div class="aspect-w-16 aspect-h-9">
                     <iframe
@@ -20,7 +20,7 @@
             </div>
         </div>
         <div>
-            <section class="max-w-5xl mx-auto px-4">
+            <section class="mx-auto px-4">
                 <div class="p-6 md:p-10">
                     <p class="mb-4" style="font-size: 1.25rem">
                         To better support our priesthood leaders in assisting members with medical needs, we are pleased to introduce GAMA: A Guide in Administering Medical Assistance. This resource has been developed to address the complexities

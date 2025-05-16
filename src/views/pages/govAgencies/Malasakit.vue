@@ -53,11 +53,11 @@ const activeTab = ref(0);
                     </thead>
                     <tbody class="bg-gray-50 divide-y divide-gray-200 rounded">
                         <tr v-for="(center, idx) in tabs[activeTab].data" :key="idx" :class="idx % 2 === 0 ? 'bg-white' : 'bg-gray-100'" class="hover:cursor-pointer hover:bg-blue-100">
-                            <td class="px-4 py-2 text-[1rem] sm:text-[1.1rem]">{{ center.region }}</td>
-                            <td class="px-4 py-2 text-[1rem] sm:text-[1.1rem]">{{ center.name_of_facility }}</td>
-                            <td class="px-4 py-2 text-[1rem] sm:text-[1.1rem]">{{ center.contact_number }}</td>
-                            <td class="px-4 py-2 text-[1rem] sm:text-[1.1rem]">{{ center.contact_person }}</td>
-                            <td class="px-4 py-2 text-[1rem] sm:text-[1.1rem]">
+                            <td class="px-4 py-2 text-[1rem] sm:text-[1rem]">{{ center.region }}</td>
+                            <td class="px-4 py-2 text-[1rem] sm:text-[1rem]">{{ center.name_of_facility }}</td>
+                            <td class="px-4 py-2 text-[1rem] sm:text-[1rem]">{{ center.contact_number }}</td>
+                            <td class="px-4 py-2 text-[1rem] sm:text-[1rem]">{{ center.contact_person }}</td>
+                            <td class="px-4 py-2 text-[1rem] sm:text-[1rem]">
                                 <a :href="'mailto:' + center.email" class="text-blue-500 hover:underline">{{ center.email }}</a>
                             </td>
                         </tr>
