@@ -178,7 +178,7 @@ const model = ref([
         items: [
             {
                 label: 'Financial Analysis',
-                icon: 'pi pi-fw pi-user',
+                icon: 'pi pi-fw pi-chart-line',
                 to: '/how-to'
             }
         ]

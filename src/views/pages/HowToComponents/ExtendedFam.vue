@@ -39,7 +39,7 @@ import ExtenedeFam from '@/assets/imgs/HowTo/ExtendedFam.png';
             </div>
 
             <div class="flex items-center justify-center">
-                <img :src="ExtenedeFam" alt="Own Efforts" class="w-full object-contain" />
+                <img :src="ExtenedeFam" alt="Own Efforts" class="w-full object-contain max-h-[500px]" />
             </div>
         </div>
         <div>

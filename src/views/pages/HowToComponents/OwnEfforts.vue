@@ -40,7 +40,7 @@ import OwnEfforts from '@/assets/imgs/HowTo/OwnEfforts.png';
             </div>
 
             <div class="flex items-center justify-center">
-                <img :src="OwnEfforts" alt="Own Efforts" class="w-full object-contain" />
+                <img :src="OwnEfforts" alt="Own Efforts" class="w-full object-contain max-h-[500px]" />
             </div>
         </div>
         <p>
