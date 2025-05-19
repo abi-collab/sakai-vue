@@ -199,13 +199,13 @@ const spao = [
         phone: '---',
         ward: 'Rosario 1st'
     },
-    {
-        name: 'Gene Benhur Licerio',
-        position: 'SPAO Specialist',
-        image: placeholder,
-        phone: '---',
-        ward: 'Cavite 2nd'
-    },
+    // {
+    //     name: 'Gene Benhur Licerio',
+    //     position: 'SPAO Specialist',
+    //     image: placeholder,
+    //     phone: '---',
+    //     ward: 'Cavite 2nd'
+    // },
     {
         name: 'Romeo Castillo',
         position: 'SPAO Specialist',

@@ -51,12 +51,12 @@ const events = ref([
 </script>
 
 <template>
-    <div class="grid grid-cols-12 gap-8 p-8">
+    <div class="grid grid-cols-12 gap-8">
         <div class="col-span-12 md:col-span-4">
             <div>
-                <img class="w-56 mb-4 shadow-lg object-cover" :src="placeholderImg" alt="Officer image" />
+                <img class="w-56 mb-4 shadow-lg object-cover rounded-lg" :src="placeholderImg" alt="Officer image" />
             </div>
-            <div class="text-xl mt-8">
+            <div class="text-lg md:text-xl mt-8">
                 GAMA, an acronym that stands for Guide in Administering Medical Assistance, represents a significant initiative spearheaded by the church.
                 <br />
                 <br />
@@ -70,16 +70,16 @@ const events = ref([
         </div>
         <div class="col-span-12 md:col-span-8">
             <div class="card">
-                <div class="font-semibold text-xl mb-4">GAMA Timeline</div>
+                <div class="font-semibold text-base md:text-xl text-center mb-4">GAMA Timeline</div>
                 <!-- <p class="font-semibold mb-2">
                     Maria faces overwhelming hospital bills after her son's accident, despite having some insurance. A kind nurse informs her about potential financial assistance programs, offering a glimmer of hope. Maria resolves to navigate the
                     complex system to secure aid for her family's financial recovery.
                 </p> -->
                 <Timeline :value="events" align="alternate" class="customized-timeline">
                     <template #marker="slotProps">
-                        <div class="text-white rounded-b-full rounded-tr-2xl py-8 px-4 z-10 shadow-sm grid place-items-center" :style="{ backgroundColor: slotProps.item.color }">
+                        <div class="text-white rounded-b-full rounded-tr-2xl py-6 px-2 md:px-4 z-10 shadow-sm grid place-items-center" :style="{ backgroundColor: slotProps.item.color }">
                             <!-- <i :class="slotProps.item.icon"></i> -->
-                            <span class="font-bold text-center">
+                            <span class="font-bold text-center text-sm md:text-md">
                                 {{ slotProps.item.date }}
                             </span>
                         </div>
@@ -87,10 +87,10 @@ const events = ref([
                     <template #content="slotProps">
                         <Card class="mt-8">
                             <template #title>
-                                <div :class="slotProps.item.id % 2 === 1 ? 'flex justify-start mb-4' : 'flex justify-end mb-4'">
+                                <div :class="slotProps.item.id % 2 === 1 ? 'flex justify-start mb-4' : 'flex justify-start md:justify-end mb-4'">
                                     <p class="rounded-full h-4 w-4" :style="{ backgroundColor: slotProps.item.color }"></p>
                                 </div>
-                                <p class="leading-normal">
+                                <p class="leading-normal text-sm md:text-lg">
                                     {{ slotProps.item.status }}
                                 </p>
                             </template>

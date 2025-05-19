@@ -1,6 +1,7 @@
 <script setup>
 import doh from '@/assets/logo/doh.png';
 import dswd from '@/assets/logo/dswd2.png';
+import malasakit from '@/assets/logo/malasakit2.png';
 import op from '@/assets/logo/op.svg';
 import ovp from '@/assets/logo/ovp.svg';
 import pagcor from '@/assets/logo/pagcor.png';
@@ -8,7 +9,6 @@ import pcso from '@/assets/logo/pcso.png';
 import pms from '@/assets/logo/pms.png';
 import spao from '@/assets/logo/spao.png';
 import sss from '@/assets/logo/sss2.png';
-import malasakit from '@/assets/logo/malasakit2.png';
 
 import cwsn from '@/assets/logo/cwsn.jpeg';
 import patientCare from '@/assets/logo/patient_care.png';
@@ -173,24 +173,43 @@ const model = ref([
             // }
         ]
     },
-
     {
-        label: 'Cavite Stake',
+        label: 'How To',
         items: [
             {
-                label: 'Officers',
+                label: 'Financial Analysis',
                 icon: 'pi pi-fw pi-user',
-                to: '/officers'
+                to: '/how-to'
+            }
+        ]
+    },
+    // {
+    //     label: 'Cavite Stake',
+    //     items: [
+    //         {
+    //             label: 'Officers',
+    //             icon: 'pi pi-fw pi-user',
+    //             to: '/officers'
+    //         },
+    //         {
+    //             label: 'Success Stories',
+    //             icon: 'pi pi-fw pi-comment',
+    //             to: '/stories'
+    //         }
+    //     ]
+    // },
+    {
+        label: 'Others',
+        items: [
+            {
+                label: 'About',
+                icon: 'pi pi-fw pi-info-circle',
+                to: '/about'
             },
             {
                 label: 'Success Stories',
                 icon: 'pi pi-fw pi-comment',
                 to: '/stories'
-            },
-            {
-                label: 'About',
-                icon: 'pi pi-fw pi-info-circle',
-                to: '/about'
             },
             {
                 label: 'History',

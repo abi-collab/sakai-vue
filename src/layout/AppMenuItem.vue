@@ -70,7 +70,7 @@ function checkActiveRoute(item) {
 
 <template>
     <li :class="{ 'layout-root-menuitem': root, 'active-menuitem': isActiveMenu }">
-        <div v-if="root && item.visible !== false" class="layout-menuitem-root-text" style="font-family: 'Century Gothic', sans-serif; font-size: 1rem">{{ item.label }}</div>
+        <div v-if="root && item.visible !== false" class="layout-menuitem-root-text" style="font-family: 'Century Gothic', sans-serif; font-size: 0.9rem">{{ item.label }}</div>
         <a v-if="(!item.to || item.items) && item.visible !== false" :href="item.url" @click="itemClick($event, item, index)" :class="item.class" :target="item.target" tabindex="0">
             <i :class="item.icon" class="layout-menuitem-icon"></i>
             <span class="layout-menuitem-text" style="font-family: 'Century Gothic', sans-serif; font-size: 1rem">{{ item.label }}</span>

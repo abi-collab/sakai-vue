@@ -1,5 +1,20 @@
 <script setup>
 import bgFlat from '@/assets/flat/38549135_8638026.svg';
+import { onMounted, watch } from 'vue';
+import { useRouter } from 'vue-router';
+
+const router = useRouter();
+
+onMounted(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
+watch(
+    () => router.currentRoute.value.fullPath,
+    () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+);
 </script>
 
 <template>
