@@ -3,7 +3,7 @@ import OwnEfforts from '@/assets/imgs/HowTo/OwnEfforts.png';
 </script>
 
 <template>
-    <div class="space-y-4 px-8 text-justify">
+    <div class="space-y-4 px-2 text-justify">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
                 <div class="font-semibold text-lg">Taking Proactive Steps for Medical &amp; Hospitalization Bills</div>
@@ -14,7 +14,7 @@ import OwnEfforts from '@/assets/imgs/HowTo/OwnEfforts.png';
                 </p>
                 <div class="mt-4">
                     <span class="font-semibold">Embracing "Own Efforts" in relation to medical and hospitalization bills involves:</span>
-                    <ul class="list-disc pl-6 space-y-2 mt-2 text-base text-justify">
+                    <ul class="list-disc pl-6 space-y-2 mt-2 text-base">
                         <li>
                             <span class="font-semibold">Taking Initiative in Health Management:</span> You actively prioritize your health through regular check-ups, healthy lifestyle choices, and early intervention for health concerns. This can
                             potentially prevent or lessen the severity and cost of future medical issues.

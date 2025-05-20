@@ -59,15 +59,15 @@ const events = ref([
 ]);
 </script>
 <template>
-    <div class="card">
+    <div>
         <p>
             This illustrates the traditional process of availing government financial assistance: starting with getting informed about available aid, gathering and organizing the required documents, submitting the application at the local office,
             attending an interview for verification, receiving notification of approval, and finally obtaining the financial support. Each step is crucial for families seeking help during difficult times.
         </p>
         <Timeline :value="events" align="alternate" class="customized-timeline -ml-12 md:ml-0">
             <template #marker="slotProps">
-                <span class="flex w-14 h-14 items-center justify-center text-white rounded-full z-10 shadow-sm" :style="{ backgroundColor: slotProps.item.color }">
-                    <i :class="slotProps.item.icon" style="font-size: 2rem"></i>
+                <span class="flex w-10 h-10 items-center justify-center text-white rounded-full z-10 shadow-sm" :style="{ backgroundColor: slotProps.item.color }">
+                    <i :class="slotProps.item.icon" style="font-size: 1.5rem"></i>
                 </span>
             </template>
             <template #content="slotProps">
