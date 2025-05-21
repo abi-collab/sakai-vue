@@ -16,7 +16,7 @@ const activeTab = ref(0);
 </script>
 
 <template>
-    <div class="px-4 sm:px-6 lg:px-8">
+    <div class="px-0 lg:px-8">
         <div>
             <p>
                 <b class="text-xl">Malasakit Centers</b> offer a centralized point of access for medical and financial assistance from PhilHealth, the Philippine Charity Sweepstakes Office, and the Department of Social Welfare and Development.
@@ -53,11 +53,11 @@ const activeTab = ref(0);
                     </thead>
                     <tbody class="bg-gray-50 divide-y divide-gray-200 rounded">
                         <tr v-for="(center, idx) in tabs[activeTab].data" :key="idx" :class="idx % 2 === 0 ? 'bg-white' : 'bg-gray-100'" class="hover:cursor-pointer hover:bg-blue-100">
-                            <td class="px-4 py-2 text-[1rem] sm:text-[1rem]">{{ center.region }}</td>
-                            <td class="px-4 py-2 text-[1rem] sm:text-[1rem]">{{ center.name_of_facility }}</td>
-                            <td class="px-4 py-2 text-[1rem] sm:text-[1rem]">{{ center.contact_number }}</td>
-                            <td class="px-4 py-2 text-[1rem] sm:text-[1rem]">{{ center.contact_person }}</td>
-                            <td class="px-4 py-2 text-[1rem] sm:text-[1rem]">
+                            <td class="px-4 py-2 text-[1rem] sm:text-[1rem] text-gray-900">{{ center.region }}</td>
+                            <td class="px-4 py-2 text-[1rem] sm:text-[1rem] text-gray-900">{{ center.name_of_facility }}</td>
+                            <td class="px-4 py-2 text-[1rem] sm:text-[1rem] text-gray-900">{{ center.contact_number }}</td>
+                            <td class="px-4 py-2 text-[1rem] sm:text-[1rem] text-gray-900">{{ center.contact_person }}</td>
+                            <td class="px-4 py-2 text-[1rem] sm:text-[1rem] text-gray-900">
                                 <a :href="'mailto:' + center.email" class="text-blue-500 hover:underline">{{ center.email }}</a>
                             </td>
                         </tr>
