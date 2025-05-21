@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+import banner from '@/assets/imgs/aid.jpg';
+</script>
 
 <template>
     <div class="bg-white">
@@ -20,13 +22,16 @@
             <br />
             We provide a carefully compiled collection of <b>relevant government offices</b>, along with essential information on their services, locations, and the steps involved in availing their <b>medical assistance programs</b>.
         </div>
-        <div class="bg-gradient-to-r from-blue-100 via-yellow-50 to-red-100 my-16">
-            <div class="mx-auto max-w-7xl px-8 py-12">
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div
+            class="bg-gradient-to-r from-blue-100 via-yellow-50 to-red-100 mt-16"
+            :style="'background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(' + banner + '); background-position: center bottom; background-attachment: fixed; background-size: cover; '"
+        >
+            <div class="mx-auto max-w-7xl px-2 md:px-8 py-4 md:py-12">
+                <div class="grid grid-cols-2 lg:grid-cols-4 gap-2 md:gap-6">
                     <div
                         class="border-2 border-blue-300 bg-blue-50 rounded-tr-3xl rounded-bl-3xl rounded-br-3xl shadow py-8 px-6 flex flex-col items-center transition-transform duration-200 ease-in-out hover:scale-110 active:scale-100 cursor-pointer"
                     >
-                        <svg class="w-14 h-14 text-blue-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <svg class="w-10 h-10 md:w-14 md:h-14 text-blue-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                             <!-- Main building body -->
                             <rect x="3" y="8" width="18" height="12" rx="2" />
                             <!-- Roof -->
@@ -39,14 +44,14 @@
                             <rect x="9" y="10" width="2" height="2" />
                             <rect x="13" y="10" width="2" height="2" />
                         </svg>
-                        <h2 class="text-xl font-semibold mb-2 text-gray-700">Agency</h2>
-                        <p class="text-3xl font-bold text-gray-700">10</p>
+                        <h2 class="text-base md:text-xl font-semibold mb-2 text-gray-700 text-center">Agency</h2>
+                        <p class="text-xl md:text-3xl font-bold text-gray-700">10</p>
                         <!-- <span class="text-sm text-gray-500 mt-1">Upcoming</span> -->
                     </div>
                     <div
                         class="border-2 border-green-400 bg-green-50 rounded-tr-3xl rounded-bl-3xl rounded-br-3xl shadow py-8 px-6 flex flex-col items-center transition-transform duration-200 ease-in-out hover:scale-110 active:scale-100 cursor-pointer"
                     >
-                        <svg class="w-14 h-14 text-green-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <svg class="w-10 h-10 md:w-14 md:h-14 text-green-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                             <!-- Outer focus ring -->
                             <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2" fill="none" />
                             <!-- Inner focus dot -->
@@ -57,15 +62,15 @@
                             <line x1="5" y1="12" x2="9" y2="12" stroke="currentColor" stroke-width="2" />
                             <line x1="15" y1="12" x2="19" y2="12" stroke="currentColor" stroke-width="2" />
                         </svg>
-                        <h2 class="text-xl font-semibold mb-2 text-gray-700">Area of Focus</h2>
-                        <p class="text-3xl font-bold text-gray-700">2</p>
+                        <h2 class="text-base md:text-xl font-semibold mb-2 text-gray-700 text-center">Area of Focus</h2>
+                        <p class="text-xl md:text-3xl font-bold text-gray-700">2</p>
                         <!-- <span class="text-sm text-gray-500 mt-1">Registered</span> -->
                     </div>
                     <router-link
                         to="/stories"
                         class="border-2 border-yellow-400 bg-yellow-50 rounded-tr-3xl rounded-bl-3xl rounded-br-3xl shadow py-8 px-6 flex flex-col items-center transition-transform duration-200 ease-in-out hover:scale-110 active:scale-100 cursor-pointer"
                     >
-                        <svg class="w-14 h-14 text-yellow-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <svg class="w-10 h-10 md:w-14 md:h-14 text-yellow-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                             <!-- Book cover -->
                             <rect x="4" y="4" width="16" height="16" rx="2" fill="currentColor" opacity="0.15" />
                             <!-- Book spine -->
@@ -77,15 +82,15 @@
                             <!-- Story sparkle/star -->
                             <polygon points="12,9 13,11 15,11 13.5,12.2 14,14 12,13 10,14 10.5,12.2 9,11 11,11" fill="currentColor" opacity="0.7" />
                         </svg>
-                        <h2 class="text-xl font-semibold mb-2 text-gray-700">Success Stories</h2>
-                        <p class="text-3xl font-bold text-gray-700">30</p>
+                        <h2 class="text-base md:text-xl font-semibold mb-2 text-gray-700 text-center">Success Stories</h2>
+                        <p class="text-xl md:text-3xl font-bold text-gray-700">30</p>
                         <!-- <span class="text-sm text-gray-500 mt-1">Available</span> -->
                     </router-link>
                     <router-link
                         to="/officers"
                         class="border-2 border-red-300 bg-red-50 rounded-tr-3xl rounded-bl-3xl rounded-br-3xl shadow py-8 px-6 flex flex-col items-center transition-transform duration-200 ease-in-out hover:scale-110 active:scale-100 cursor-pointer"
                     >
-                        <svg class="w-14 h-14 text-red-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 32 32">
+                        <svg class="w-10 h-10 md:w-14 md:h-14 text-red-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 32 32">
                             <!-- Main person (center, larger, in front) -->
                             <circle cx="16" cy="13" r="4" fill="currentColor" opacity="0.18" />
                             <circle cx="16" cy="13" r="4" />
@@ -104,8 +109,8 @@
                             <!-- Shoulders (center) -->
                             <ellipse cx="16" cy="19.5" rx="5" ry="2" fill="currentColor" opacity="0.08" />
                         </svg>
-                        <h2 class="text-xl font-semibold mb-2 text-gray-700">Officers</h2>
-                        <p class="text-3xl font-bold text-gray-700">15</p>
+                        <h2 class="text-base md:text-xl font-semibold mb-2 text-gray-700 text-center">Officers</h2>
+                        <p class="text-xl md:text-3xl font-bold text-gray-700">15</p>
                         <!-- <span class="text-sm text-gray-500 mt-1">Pending</span> -->
                     </router-link>
                 </div>

@@ -202,7 +202,7 @@ const model = ref([
         label: 'Others',
         items: [
             {
-                label: 'About',
+                label: 'About GAMA',
                 icon: 'pi pi-fw pi-info-circle',
                 to: '/about'
             },
@@ -213,8 +213,18 @@ const model = ref([
             },
             {
                 label: 'History',
-                icon: 'pi pi-fw pi-info-circle',
+                icon: 'pi pi-fw pi-history',
                 to: '/history'
+            },
+            {
+                label: 'Mission & Vision',
+                icon: 'pi pi-fw pi-lightbulb',
+                to: '/mission-vision'
+            },
+            {
+                label: 'T & C / Disclaimer',
+                icon: 'pi pi-fw pi-file-word',
+                to: '/terms-and-conditions-disclaimer'
             }
         ]
     }

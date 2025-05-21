@@ -60,31 +60,22 @@ const events = ref([
 </script>
 <template>
     <div>
-        <p>
-            This illustrates the traditional process of availing government financial assistance: starting with getting informed about available aid, gathering and organizing the required documents, submitting the application at the local office,
-            attending an interview for verification, receiving notification of approval, and finally obtaining the financial support. Each step is crucial for families seeking help during difficult times.
-        </p>
+        <p>This illustrates the traditional process of availing government financial assistance. Each step is crucial for families seeking help during difficult times.</p>
         <Timeline :value="events" align="alternate" class="customized-timeline -ml-12 md:ml-0">
             <template #marker="slotProps">
-                <span class="flex w-10 h-10 items-center justify-center text-white rounded-full z-10 shadow-sm" :style="{ backgroundColor: slotProps.item.color }">
+                <span class="flex w-10 h-10 items-center justify-center text-white rounded-full z-10" :style="{ backgroundColor: slotProps.item.color }">
                     <i :class="slotProps.item.icon" style="font-size: 1.5rem"></i>
                 </span>
             </template>
             <template #content="slotProps">
-                <Card class="mt-4 flex flex-col items-center text-center">
-                    <!-- <template #title>
-                                <span class="font-bold text-xl">{{ slotProps.item.status }}</span>
-                            </template>
-                            <template #subtitle>
-                                <span class="text-gray-500">{{ slotProps.item.date }}</span>
-                            </template> -->
+                <Card class="mt-8 flex flex-col items-center text-center" :style="{ backgroundColor: slotProps.item.color + '20' }">
                     <template #content>
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
                             <div class="flex justify-center">
-                                <img v-if="slotProps.item.image" :src="slotProps.item.image" :alt="slotProps.item.status" width="200" class="shadow-sm rounded mb-2" />
+                                <img v-if="slotProps.item.image" :src="slotProps.item.image" :alt="slotProps.item.status" width="200" class="rounded mb-2" />
                             </div>
                             <div>
-                                <div class="font-bold text-xl text-left mb-4 leading-tight">{{ slotProps.item.status }}</div>
+                                <div class="font-bold text-xl text-left mb-4 leading-tight capitalize">{{ slotProps.item.status }}</div>
                                 <p class="text-base leading-normal md:leading-relaxed text-left">
                                     {{ slotProps.item.description }}
                                 </p>

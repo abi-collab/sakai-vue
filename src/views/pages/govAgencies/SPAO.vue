@@ -52,5 +52,6 @@
                 referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
         </div>
+        <div><b>Reference: </b><a href="https://web.senate.gov.ph/SPAO_MAS_page2.asp" target="_blank">https://web.senate.gov.ph/SPAO_MAS_page2.asp</a></div>
     </div>
 </template>

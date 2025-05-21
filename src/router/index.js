@@ -177,18 +177,15 @@ const router = createRouter({
                     name: 'stories',
                     component: () => import('@/views/pages/Stories/CavStake.vue')
                 },
-                {
-                    path: '/about',
-                    name: 'about',
-                    component: () => import('@/views/pages/About.vue')
-                },
-                {
-                    path: '/history',
-                    name: 'history',
-                    component: () => import('@/views/pages/History.vue')
-                },
-                ///////////////////////////// others
+                ///////////////////////////// HOW TO
 
+                {
+                    path: '/how-to',
+                    name: 'How to',
+                    component: () => import('@/views/pages/HowTo.vue')
+                },
+
+                /////////// Area of Focus
                 {
                     path: '/cwsn',
                     name: 'children-with-special-needs',
@@ -200,10 +197,26 @@ const router = createRouter({
                     component: () => import('@/views/pages/Other/PatientCare.vue')
                 },
 
+                ///////////////////////////// others
                 {
-                    path: '/how-to',
-                    name: 'How to',
-                    component: () => import('@/views/pages/HowTo.vue')
+                    path: '/about',
+                    name: 'about',
+                    component: () => import('@/views/pages/About.vue')
+                },
+                {
+                    path: '/history',
+                    name: 'history',
+                    component: () => import('@/views/pages/History.vue')
+                },
+                {
+                    path: '/terms-and-conditions-disclaimer',
+                    name: 'terms-and-conditions-disclaimer',
+                    component: () => import('@/views/pages/Other/TCDisclaimer.vue')
+                },
+                {
+                    path: '/mission-vision',
+                    name: 'mission-vision',
+                    component: () => import('@/views/pages/Other/MissionVision.vue')
                 }
             ]
         },

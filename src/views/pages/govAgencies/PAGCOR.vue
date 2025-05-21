@@ -40,5 +40,6 @@
                 referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
         </div>
+        <div><b>Reference: </b><a href="https://www.pagcor.ph/pagcor-corporate-profile.php" target="_blank">https://www.pagcor.ph/pagcor-corporate-profile.php</a></div>
     </div>
 </template>

@@ -84,6 +84,7 @@
                 referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
         </div>
+        <div><b>Reference: </b><a href="https://doh.gov.ph/" target="_blank">https://doh.gov.ph/</a></div>
     </div>
     <!--------------  content ends ---------------------->
 </template>
