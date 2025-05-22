@@ -24,7 +24,7 @@ const activeTab = ref(0);
             </p>
         </div>
         <h6>MALASAKIT CENTER PROGRAM OFFICES</h6>
-        <div class="bg-white">
+        <div>
             <!-- Tabs -->
             <div class="my-6">
                 <div class="flex flex-wrap border-b border-gray-200">

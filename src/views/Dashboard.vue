@@ -1,12 +1,12 @@
 <script setup></script>
 
 <template>
-    <div class="bg-white">
+    <div class="">
         <div class="relative isolate px-6 lg:px-8">
             <div class="mx-auto max-w-7xl pt-16 md:pt-32">
                 <div class="z-10">
-                    <h1 class="text-3xl md:text-6xl font-semibold tracking-tight text-balance text-gray-900">Guide in Administering Medical Assistance</h1>
-                    <p class="mt-4 text-lg md:text-xl font-medium text-pretty text-gray-700 ml-1">Teaching Filipinos how to achieve Government Medical Care.</p>
+                    <h1 class="text-3xl md:text-6xl font-semibold tracking-tight text-balance">Guide in Administering Medical Assistance</h1>
+                    <p class="mt-4 text-lg md:text-xl font-medium text-pretty ml-1">Teaching Filipinos how to achieve Government Medical Care.</p>
                 </div>
             </div>
         </div>
@@ -17,54 +17,55 @@
             </svg>
         </div>
         <!-- <div class="h-2 bg-white"></div> -->
-        <div class="bg-blue-100">
+        <div class="bg-blue-200">
             <div class="mx-auto max-w-7xl p-8 md:p-12 text-lg font-medium text-pretty sm:text-xl/8 space-y-2 text-gray-900">
                 <div>Understanding and accessing government medical assistance <b>shouldn't</b> be a struggle.</div>
                 <!-- <div>Our non-profit organization offers this website as a comprehensive, <b>one-stop reference</b> for individuals seeking support.</div> -->
                 <div>We provide a carefully compiled collection of <b>relevant government offices</b>, along with essential information on their services, locations, and the steps involved in availing their <b>medical assistance programs</b>.</div>
             </div>
         </div>
-
-        <div class="max-w-7xl mx-auto py-8 grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div class="grid place-items-center px-8 text-balance">
-                <div class="text-lg md:text-2xl" style="font-family: 'Lato', sans-serif; font-weight: 500; color: #1e293b">
-                    <b class="text-2xl md:text-4xl" style="font-family: 'EB Garamond', sans-serif; font-weight: 500; line-height: 1.1; color: #1d4ed8">
-                        <span v-for="(word, i) in 'The Church of Jesus Christ of Latter-Day Saints'.split(' ')" :key="i" style="display: inline-block; margin-right: 0.15em; color: #1d4ed8">{{ word }}</span>
-                    </b>
-                    <i style="line-height: 1.1; color: #334155">
-                        <span v-for="(word, i) in 'teachings emphasize the importance of financial preparedness as a vital component of'.split(' ')" :key="'a' + i" :style="'display: inline-block; margin-right: 0.15em; color: #15803d;'">
-                            {{ word }}
-                        </span>
-                        <u>
-                            <span v-for="(word, i) in ' overall well-being'.split(' ')" :key="'b' + i" class="text-2xl md:text-3xl" style="display: inline-block; margin-right: 0.15em; color: #f59e1a">
+        <div class="bg-white">
+            <div class="max-w-7xl mx-auto py-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="grid place-items-center px-8 text-balance">
+                    <div class="text-lg md:text-2xl" style="font-family: 'Lato', sans-serif; font-weight: 500; color: #1e293b">
+                        <b class="text-2xl md:text-4xl" style="font-family: 'EB Garamond', sans-serif; font-weight: 500; line-height: 1.1; color: #1d4ed8">
+                            <span v-for="(word, i) in 'The Church of Jesus Christ of Latter-Day Saints'.split(' ')" :key="i" style="display: inline-block; margin-right: 0.15em; color: #1d4ed8">{{ word }}</span>
+                        </b>
+                        <i style="line-height: 1.1; color: #334155">
+                            <span v-for="(word, i) in 'teachings emphasize the importance of financial preparedness as a vital component of'.split(' ')" :key="'a' + i" :style="'display: inline-block; margin-right: 0.15em; color: #15803d;'">
                                 {{ word }}
                             </span>
-                        </u>
-                        <span style="color: #334155">both temporal and spiritual.</span>
-                    </i>
-                    <br /><br />
-                    <i class="text-lg md:text-2xl" style="line-height: 1.1; color: #334155">
-                        <span style="line-height: 1.1">
-                            <span v-for="(word, i) in 'Leaders encourage individuals'.split(' ')" :key="'c' + i" style="display: inline-block; margin-right: 0.15em; color: #15803d">{{ word }}</span>
-                        </span>
-                        <span style="color: #334155">to </span>
-                        <span class="text-2xl md:text-3xl" style="line-height: 1.1; color: #1d4ed8">
-                            <span v-for="(word, i) in 'live within their means, avoid debt, and save'.split(' ')" :key="'d' + i" style="display: inline-block; margin-right: 0.15em; color: #1d4ed8">{{ word }}</span>
-                        </span>
-                        <span style="color: #334155">for the future through</span>
-                        <span class="text-2xl md:text-3xl" style="line-height: 1.1; color: #f59e1a">
-                            <span v-for="(word, i) in ' wise financial choices'.split(' ')" :key="'e' + i" style="display: inline-block; margin-right: 0.15em; color: #f59e1a">{{ word }}</span>
-                        </span>
-                        <span style="color: #334155">.</span>
-                    </i>
+                            <u>
+                                <span v-for="(word, i) in ' overall well-being'.split(' ')" :key="'b' + i" class="text-2xl md:text-3xl" style="display: inline-block; margin-right: 0.15em; color: #f59e1a">
+                                    {{ word }}
+                                </span>
+                            </u>
+                            <span style="color: #334155">both temporal and spiritual.</span>
+                        </i>
+                        <br /><br />
+                        <i class="text-lg md:text-2xl" style="line-height: 1.1; color: #334155">
+                            <span style="line-height: 1.1">
+                                <span v-for="(word, i) in 'Leaders encourage individuals'.split(' ')" :key="'c' + i" style="display: inline-block; margin-right: 0.15em; color: #15803d">{{ word }}</span>
+                            </span>
+                            <span style="color: #334155">to </span>
+                            <span class="text-2xl md:text-3xl" style="line-height: 1.1; color: #1d4ed8">
+                                <span v-for="(word, i) in 'live within their means, avoid debt, and save'.split(' ')" :key="'d' + i" style="display: inline-block; margin-right: 0.15em; color: #1d4ed8">{{ word }}</span>
+                            </span>
+                            <span style="color: #334155">for the future through</span>
+                            <span class="text-2xl md:text-3xl" style="line-height: 1.1; color: #f59e1a">
+                                <span v-for="(word, i) in ' wise financial choices'.split(' ')" :key="'e' + i" style="display: inline-block; margin-right: 0.15em; color: #f59e1a">{{ word }}</span>
+                            </span>
+                            <span style="color: #334155">.</span>
+                        </i>
+                    </div>
                 </div>
-            </div>
-            <div class="pt-16 md:pt-0 hidden md:block">
-                <img src="@/assets/flat/10173261_8486.svg" alt="SVG file" class="w-full" />
+                <div class="pt-16 md:pt-0 hidden md:block">
+                    <img src="@/assets/flat/10173261_8486.svg" alt="SVG file" class="w-full" />
+                </div>
             </div>
         </div>
 
-        <div class="max-w-7xl mx-auto px-4 pb-12">
+        <div class="max-w-7xl mx-auto px-4 pb-12 mt-12">
             <!-- <h2 class="text-2xl md:text-4xl font-bold text-center mb-10 text-gray-900">Financial Preparedness Principles</h2> -->
             <div class="flex flex-col md:flex-row md:space-x-8 space-y-8 md:space-y-0">
                 <!-- Card 1 -->

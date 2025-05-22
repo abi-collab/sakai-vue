@@ -44,6 +44,16 @@ const model = ref([
     //     ]
     // },
     {
+        label: 'How To',
+        items: [
+            {
+                label: 'Financial Analysis',
+                icon: 'pi pi-fw pi-chart-line',
+                to: '/how-to'
+            }
+        ]
+    },
+    {
         label: 'Government',
         icon: 'pi pi-fw pi-briefcase',
         to: '/pages',
@@ -171,16 +181,6 @@ const model = ref([
             //     icon: 'pi pi-fw pi-circle-off',
             //     to: '/pages/empty'
             // }
-        ]
-    },
-    {
-        label: 'How To',
-        items: [
-            {
-                label: 'Financial Analysis',
-                icon: 'pi pi-fw pi-chart-line',
-                to: '/how-to'
-            }
         ]
     },
     // {
