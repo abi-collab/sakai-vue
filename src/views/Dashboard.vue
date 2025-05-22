@@ -12,26 +12,29 @@
         </div>
         <div class="px-0 relative mt-8">
             <img src="@/assets/imgs/pinoys2-removebg-preview2.png" alt="SVG file" class="w-full" />
-            <svg class="absolute left-0 bottom-0 w-full h-0 md:h-0" viewBox="0 0 1440 80" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+            <!-- <svg class="absolute left-0 bottom-0 w-full h-0 md:h-0" viewBox="0 0 1440 80" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
                 <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#fff" />
-            </svg>
+            </svg> -->
         </div>
         <!-- <div class="h-2 bg-white"></div> -->
-        <div class="bg-blue-200">
-            <div class="mx-auto max-w-7xl p-8 md:p-12 text-lg font-medium text-pretty sm:text-xl/8 space-y-2 text-gray-900">
+        <div class="bg-blue-200 relative">
+            <div class="mx-auto max-w-7xl p-8 md:px-12 md:pb-16 md:pt-10 text-lg font-medium text-pretty sm:text-xl/8 space-y-2 text-gray-900">
                 <div>Understanding and accessing government medical assistance <b>shouldn't</b> be a struggle.</div>
                 <!-- <div>Our non-profit organization offers this website as a comprehensive, <b>one-stop reference</b> for individuals seeking support.</div> -->
                 <div>We provide a carefully compiled collection of <b>relevant government offices</b>, along with essential information on their services, locations, and the steps involved in availing their <b>medical assistance programs</b>.</div>
             </div>
+            <svg class="absolute left-0 bottom-0 w-full h-4 md:h-10" viewBox="0 0 1440 80" fill="white" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+                <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#fff" />
+            </svg>
         </div>
-        <div class="bg-white">
+        <div class="bg-white rounded-b">
             <div class="max-w-7xl mx-auto py-8 grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div class="grid place-items-center px-8 text-balance">
                     <div class="text-lg md:text-2xl" style="font-family: 'Lato', sans-serif; font-weight: 500; color: #1e293b">
                         <b class="text-2xl md:text-4xl" style="font-family: 'EB Garamond', sans-serif; font-weight: 500; line-height: 1.1; color: #1d4ed8">
                             <span v-for="(word, i) in 'The Church of Jesus Christ of Latter-Day Saints'.split(' ')" :key="i" style="display: inline-block; margin-right: 0.15em; color: #1d4ed8">{{ word }}</span>
                         </b>
-                        <i style="line-height: 1.1; color: #334155">
+                        <i style="line-height: 1.1; color: #935450">
                             <span v-for="(word, i) in 'teachings emphasize the importance of financial preparedness as a vital component of'.split(' ')" :key="'a' + i" :style="'display: inline-block; margin-right: 0.15em; color: #15803d;'">
                                 {{ word }}
                             </span>
@@ -43,7 +46,7 @@
                             <span style="color: #334155">both temporal and spiritual.</span>
                         </i>
                         <br /><br />
-                        <i class="text-lg md:text-2xl" style="line-height: 1.1; color: #334155">
+                        <i class="text-lg md:text-2xl" style="line-height: 1.1; color: #935450">
                             <span style="line-height: 1.1">
                                 <span v-for="(word, i) in 'Leaders encourage individuals'.split(' ')" :key="'c' + i" style="display: inline-block; margin-right: 0.15em; color: #15803d">{{ word }}</span>
                             </span>

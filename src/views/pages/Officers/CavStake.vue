@@ -18,9 +18,11 @@ import joan from '@/assets/Officers/joan.jpg';
 // placeholder
 import placeholder from '@/assets/Officers/placeholder.jpg';
 //spao
+import blad from '@/assets/Officers/blad.jpg';
 import gracia from '@/assets/Officers/gracia.jpg';
 import jaydg from '@/assets/Officers/jaydg.jpg';
 import maricel from '@/assets/Officers/maricel.jpg';
+import wolf from '@/assets/Officers/wolf.jpg';
 //patient care
 import reynaldoDG from '@/assets/Officers/reynaldoDG.jpg';
 
@@ -181,7 +183,7 @@ const spao = [
     {
         name: 'Lilia Wolff',
         position: 'SPAO Specialist',
-        image: placeholder,
+        image: wolf,
         phone: '---',
         ward: 'General Trias 1st'
     },
@@ -215,7 +217,7 @@ const spao = [
     {
         name: 'Blademer Escamilla',
         position: 'SPAO Specialist',
-        image: placeholder,
+        image: blad,
         phone: '---',
         ward: 'General Trias 3rd'
     },
