@@ -1,7 +1,32 @@
 <script setup>
-import Community from './HowToComponents/Community.vue';
-import ExtendedFamily from './HowToComponents/ExtendedFam.vue';
-import OwnEfforts from './HowToComponents/OwnEfforts.vue';
+import Accordion from 'primevue/accordion';
+import AccordionTab from 'primevue/accordiontab';
+import { ref } from 'vue';
+
+// Import your tab components here
+import COMMUNITY from '@/views/pages/HowToComponents/Community.vue';
+import EXTENDFAM from '@/views/pages/HowToComponents/ExtendedFam.vue';
+import OWNEFFORTS from '@/views/pages/HowToComponents/OwnEfforts.vue';
+
+const activeIndex = ref(0);
+
+const tabs = [
+    {
+        header: 'Own Efforts',
+        component: OWNEFFORTS,
+        bgColor: '#e0f7fa' // Cool light cyan
+    },
+    {
+        header: 'Extended Family',
+        component: EXTENDFAM,
+        bgColor: '#e3f2fd' // Cool light blue
+    },
+    {
+        header: 'Government, Insurance and Community Resources',
+        component: COMMUNITY,
+        bgColor: '#ede7f6' // Cool light purple
+    }
+];
 </script>
 
 <template>
@@ -14,15 +39,15 @@ import OwnEfforts from './HowToComponents/OwnEfforts.vue';
             </p>
         </section>
     </div>
-    <Accordion :activeIndex="0" class="space-y-4">
-        <AccordionTab header="1. OWN EFFORTS">
-            <OwnEfforts />
-        </AccordionTab>
-        <AccordionTab header="2. EXTENDED FAMILY">
-            <ExtendedFamily />
-        </AccordionTab>
-        <AccordionTab header="3. GOVERNMENT, INSURANCE and COMMUNITY RESOURCES">
-            <Community />
+    <Accordion
+        :activeIndex="activeIndex"
+        class="space-y-4"
+        :expandIcon="activeIndex === i ? 'pi pi-chevron-up' : 'pi pi-chevron-down'"
+        :collapseIcon="activeIndex === i ? 'pi pi-chevron-up' : 'pi pi-chevron-down'"
+        @update:activeIndex="(val) => (activeIndex = val)"
+    >
+        <AccordionTab v-for="(tab, i) in tabs" :key="i" :header="tab.header" :class="{ 'bg-gray-100': activeIndex === i }" :style="{ backgroundColor: tab.bgColor }" headerStyle="font-family: 'Segoe UI', Arial, sans-serif;">
+            <component :is="tab.component" />
         </AccordionTab>
     </Accordion>
 </template>

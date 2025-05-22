@@ -25,13 +25,39 @@
             </div>
         </div>
 
-        <div class="max-w-7xl mx-auto px-2 py-8 grid grid-cols-1 md:grid-cols-2">
-            <div class="grid place-items-center px-8 leading-loose text-balance">
-                <span class="text-lg md:text-2xl text-gray-900">
-                    <b class="text-2xl md:text-4xl">The Church of Jesus Christ of Latter-Day Saints</b>
-                    teachings <u>emphasize</u> the <b class="text-xl md:text-3xl">importance</b> of financial preparedness as a vital component of <b class="text-2xl md:text-4xl">overall well-being</b>, both temporal and spiritual.
-                    <br /><br />Leaders encourage individuals to <b class="text-lg md:text-2xl">live within their means, avoid debt, and save for the future</b> through <b class="text-2xl md:text-4xl">wise financial choices.</b>
-                </span>
+        <div class="max-w-7xl mx-auto py-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="grid place-items-center px-8 text-balance">
+                <div class="text-lg md:text-2xl" style="font-family: 'Lato', sans-serif; font-weight: 500; color: #1e293b">
+                    <b class="text-2xl md:text-4xl" style="font-family: 'EB Garamond', sans-serif; font-weight: 500; line-height: 1.1; color: #1d4ed8">
+                        <span v-for="(word, i) in 'The Church of Jesus Christ of Latter-Day Saints'.split(' ')" :key="i" style="display: inline-block; margin-right: 0.15em; color: #1d4ed8">{{ word }}</span>
+                    </b>
+                    <i style="line-height: 1.1; color: #334155">
+                        <span v-for="(word, i) in 'teachings emphasize the importance of financial preparedness as a vital component of'.split(' ')" :key="'a' + i" :style="'display: inline-block; margin-right: 0.15em; color: #15803d;'">
+                            {{ word }}
+                        </span>
+                        <u>
+                            <span v-for="(word, i) in ' overall well-being'.split(' ')" :key="'b' + i" class="text-2xl md:text-3xl" style="display: inline-block; margin-right: 0.15em; color: #f59e1a">
+                                {{ word }}
+                            </span>
+                        </u>
+                        <span style="color: #334155">both temporal and spiritual.</span>
+                    </i>
+                    <br /><br />
+                    <i class="text-lg md:text-2xl" style="line-height: 1.1; color: #334155">
+                        <span style="line-height: 1.1">
+                            <span v-for="(word, i) in 'Leaders encourage individuals'.split(' ')" :key="'c' + i" style="display: inline-block; margin-right: 0.15em; color: #15803d">{{ word }}</span>
+                        </span>
+                        <span style="color: #334155">to </span>
+                        <span class="text-2xl md:text-3xl" style="line-height: 1.1; color: #1d4ed8">
+                            <span v-for="(word, i) in 'live within their means, avoid debt, and save'.split(' ')" :key="'d' + i" style="display: inline-block; margin-right: 0.15em; color: #1d4ed8">{{ word }}</span>
+                        </span>
+                        <span style="color: #334155">for the future through</span>
+                        <span class="text-2xl md:text-3xl" style="line-height: 1.1; color: #f59e1a">
+                            <span v-for="(word, i) in ' wise financial choices'.split(' ')" :key="'e' + i" style="display: inline-block; margin-right: 0.15em; color: #f59e1a">{{ word }}</span>
+                        </span>
+                        <span style="color: #334155">.</span>
+                    </i>
+                </div>
             </div>
             <div class="pt-16 md:pt-0 hidden md:block">
                 <img src="@/assets/flat/10173261_8486.svg" alt="SVG file" class="w-full" />
@@ -43,57 +69,81 @@
             <div class="flex flex-col md:flex-row md:space-x-8 space-y-8 md:space-y-0">
                 <!-- Card 1 -->
                 <div class="flex-1 bg-white rounded-2xl shadow-md p-8 border-t-4 border-blue-400 hover:shadow-xl transition-shadow duration-200">
-                    <h3 class="text-xl font-semibold text-blue-700 mb-4 flex items-center">
-                        <svg class="w-12 h-12 mr-2 text-blue-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <h3 class="text-xl font-semibold text-blue-700 mb-4 flex items-center" style="font-family: 'Noto Sans Deseret', sans-serif; font-weight: 500">
+                        <svg class="w-12 h-12 mr-4 text-blue-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                             <path d="M12 3v18M3 12h18" stroke-linecap="round" />
                         </svg>
                         Importance of Financial Preparedness
                     </h3>
-                    <ul class="list-disc list-inside text-gray-700 space-y-2">
+                    <ul class="text-gray-700 space-y-4 mt-8">
                         <li>
-                            <span class="font-semibold">Spiritual and Temporal Well-being:</span>
+                            <span class="font-bold">Spiritual and Temporal Well-being</span>
+                            <br />
                             Financial preparedness enables individuals and families to face challenges with greater resilience and security.
                         </li>
                         <li>
-                            <span class="font-semibold">Self-Reliance:</span>
+                            <span class="font-bold">Self-Reliance</span>
+                            <br />
                             Promotes self-reliance, allowing individuals to provide for themselves and their families.
                         </li>
                         <li>
-                            <span class="font-semibold">Blessings from God:</span>
+                            <span class="font-bold">Blessings from God</span>
+                            <br />
                             Following wise financial principles, including paying tithes and offerings, invites blessings and provision from God.
                         </li>
                     </ul>
                 </div>
                 <!-- Card 2 -->
                 <div class="flex-1 bg-white rounded-2xl shadow-md p-8 border-t-4 border-green-400 hover:shadow-xl transition-shadow duration-200">
-                    <h3 class="text-xl font-semibold text-green-700 mb-4 flex items-center">
-                        <svg class="w-14 h-14 mr-2 text-green-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <h3 class="text-xl font-semibold text-green-700 mb-4 flex items-center" style="font-family: 'Noto Sans Deseret', sans-serif; font-weight: 500">
+                        <svg class="w-14 h-14 mr-4 text-green-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                             <circle cx="12" cy="12" r="10" />
                             <path d="M8 12l2 2 4-4" stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
                         Key Principles of Financial Preparedness
                     </h3>
-                    <ul class="list-disc list-inside text-gray-700 space-y-2">
-                        <li><span class="font-semibold">Avoiding Debt:</span> Strongly discourage excessive debt, as it can lead to financial hardship.</li>
-                        <li><span class="font-semibold">Living Within Means:</span> Spend less than you earn to maintain control over finances.</li>
-                        <li><span class="font-semibold">Saving for the Future:</span> Build financial reserves for unforeseen circumstances and future needs.</li>
-                        <li><span class="font-semibold">Using a Budget:</span> Track expenses and allocate resources effectively.</li>
-                        <li><span class="font-semibold">Tithing and Offerings:</span> Paying a tithe (10% of income) is a core principle and invites blessings.</li>
+                    <ul class="text-gray-700 space-y-6 mt-8">
+                        <li>
+                            <span class="font-bold">Avoiding Debt</span> <br />
+                            Strongly discourage excessive debt, as it can lead to financial hardship.
+                        </li>
+                        <li>
+                            <span class="font-bold">Living Within Means</span> <br />
+                            Spend less than you earn to maintain control over finances.
+                        </li>
+                        <li>
+                            <span class="font-bold">Saving for the Future</span> <br />
+                            Build financial reserves for unforeseen circumstances and future needs.
+                        </li>
+                        <li>
+                            <span class="font-bold">Using a Budget</span> <br />
+                            Track expenses and allocate resources effectively.
+                        </li>
+                        <li><span class="font-bold">Tithing and Offerings</span> Paying a tithe (10% of income) is a core principle and invites blessings.</li>
                     </ul>
                 </div>
                 <!-- Card 3 -->
                 <div class="flex-1 bg-white rounded-2xl shadow-md p-8 border-t-4 border-yellow-400 hover:shadow-xl transition-shadow duration-200">
-                    <h3 class="text-xl font-semibold text-yellow-700 mb-4 flex items-center">
-                        <svg class="w-14 h-14 mr-2 text-yellow-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <h3 class="text-xl font-semibold text-yellow-700 mb-4 flex items-center" style="font-family: 'Noto Sans Deseret', sans-serif; font-weight: 500">
+                        <svg class="w-14 h-14 mr-4 text-yellow-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                             <path d="M12 8v4l3 3" stroke-linecap="round" stroke-linejoin="round" />
                             <circle cx="12" cy="12" r="10" />
                         </svg>
                         Practical Tips for Financial Preparedness
                     </h3>
-                    <ul class="list-disc list-inside text-gray-700 space-y-2">
-                        <li><span class="font-semibold">Debt-Elimination Calendar:</span> Track and manage debt, focusing on high-interest debts first.</li>
-                        <li><span class="font-semibold">Insurance:</span> Maintain adequate insurance to protect against major financial setbacks.</li>
-                        <li><span class="font-semibold">Emergency Fund:</span> Establish an emergency fund for unforeseen expenses and challenges.</li>
+                    <ul class="text-gray-700 space-y-4 mt-8">
+                        <li>
+                            <span class="font-bold">Debt-Elimination Calendar</span><br />
+                            Track and manage debt, focusing on high-interest debts first.
+                        </li>
+                        <li>
+                            <span class="font-bold">Insurance</span><br />
+                            Maintain adequate insurance to protect against major financial setbacks.
+                        </li>
+                        <li>
+                            <span class="font-bold">Emergency Fund</span><br />
+                            Establish an emergency fund for unforeseen expenses and challenges.
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -102,101 +152,5 @@
         <div class="pt-16 md:pt-0 block md:hidden">
             <img src="@/assets/flat/10173261_8486.svg" alt="SVG file" class="w-full" />
         </div>
-
-        <!-- <div>
-            <div class="mx-auto px-2 md:px-8 py-4 md:py-12 grid grid-cols-1 md:grid-cols-2">
-                <div>
-                    <img src="@/assets/flat/10173261_8486.svg" alt="SVG file" class="w-full" />
-                </div>
-
-                <div class="grid grid-cols-2 lg:grid-cols-2 gap-2 md:gap-6 p-8">
-                    <div
-                        class="border-2 border-blue-300 bg-blue-50 rounded-tr-3xl rounded-bl-3xl rounded-br-3xl shadow py-8 px-6 flex flex-col items-center transition-transform duration-200 ease-in-out hover:scale-110 active:scale-100 cursor-pointer"
-                    >
-                        <svg class="w-10 h-10 md:w-14 md:h-14 text-blue-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                    
-                            <rect x="3" y="8" width="18" height="12" rx="2" />
-                  
-                            <polygon points="3,8 12,3 21,8" fill="currentColor" opacity="0.2" />
-                            <path d="M3 8L12 3L21 8" />
-         
-                            <rect x="7" y="14" width="2" height="3" />
-                            <rect x="11" y="14" width="2" height="3" />
-                            <rect x="15" y="14" width="2" height="3" />
-                            <rect x="9" y="10" width="2" height="2" />
-                            <rect x="13" y="10" width="2" height="2" />
-                        </svg>
-                        <h2 class="text-base md:text-xl font-semibold mb-2 text-gray-700 text-center">Agency</h2>
-                        <p class="text-xl md:text-3xl font-bold text-gray-700">10</p>
-                  
-                    </div>
-                    <div
-                        class="border-2 border-green-400 bg-green-50 rounded-tr-3xl rounded-bl-3xl rounded-br-3xl shadow py-8 px-6 flex flex-col items-center transition-transform duration-200 ease-in-out hover:scale-110 active:scale-100 cursor-pointer"
-                    >
-                        <svg class="w-10 h-10 md:w-14 md:h-14 text-green-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-               
-                            <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2" fill="none" />
-                
-                            <circle cx="12" cy="12" r="3" fill="currentColor" opacity="0.2" />
-                      
-                            <line x1="12" y1="5" x2="12" y2="9" stroke="currentColor" stroke-width="2" />
-                            <line x1="12" y1="15" x2="12" y2="19" stroke="currentColor" stroke-width="2" />
-                            <line x1="5" y1="12" x2="9" y2="12" stroke="currentColor" stroke-width="2" />
-                            <line x1="15" y1="12" x2="19" y2="12" stroke="currentColor" stroke-width="2" />
-                        </svg>
-                        <h2 class="text-base md:text-xl font-semibold mb-2 text-gray-700 text-center">Area of Focus</h2>
-                        <p class="text-xl md:text-3xl font-bold text-gray-700">2</p>
-                   
-                    </div>
-                    <router-link
-                        to="/stories"
-                        class="border-2 border-yellow-400 bg-yellow-50 rounded-tr-3xl rounded-bl-3xl rounded-br-3xl shadow py-8 px-6 flex flex-col items-center transition-transform duration-200 ease-in-out hover:scale-110 active:scale-100 cursor-pointer"
-                    >
-                        <svg class="w-10 h-10 md:w-14 md:h-14 text-yellow-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                     
-                            <rect x="4" y="4" width="16" height="16" rx="2" fill="currentColor" opacity="0.15" />
-                 
-                            <rect x="7" y="4" width="2" height="16" fill="currentColor" opacity="0.3" />
-                 
-                            <line x1="10" y1="7" x2="18" y2="7" stroke="currentColor" stroke-width="1.2" />
-                            <line x1="10" y1="11" x2="18" y2="11" stroke="currentColor" stroke-width="1.2" />
-                            <line x1="10" y1="15" x2="18" y2="15" stroke="currentColor" stroke-width="1.2" />
-            
-                            <polygon points="12,9 13,11 15,11 13.5,12.2 14,14 12,13 10,14 10.5,12.2 9,11 11,11" fill="currentColor" opacity="0.7" />
-                        </svg>
-                        <h2 class="text-base md:text-xl font-semibold mb-2 text-gray-700 text-center">Success Stories</h2>
-                        <p class="text-xl md:text-3xl font-bold text-gray-700">30</p>
-                  
-                    </router-link>
-                    <router-link
-                        to="/officers"
-                        class="border-2 border-red-300 bg-red-50 rounded-tr-3xl rounded-bl-3xl rounded-br-3xl shadow py-8 px-6 flex flex-col items-center transition-transform duration-200 ease-in-out hover:scale-110 active:scale-100 cursor-pointer"
-                    >
-                        <svg class="w-10 h-10 md:w-14 md:h-14 text-red-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 32 32">
-                       
-                            <circle cx="16" cy="13" r="4" fill="currentColor" opacity="0.18" />
-                            <circle cx="16" cy="13" r="4" />
-                        
-                            <path d="M10 25c0-3.5 4-5.5 6-5.5s6 2 6 5.5" stroke="currentColor" stroke-width="2" fill="none" />
-                       
-                            <circle cx="8.5" cy="15.5" r="2.5" fill="currentColor" opacity="0.12" />
-                            <circle cx="8.5" cy="15.5" r="2.5" />
-               
-                            <path d="M4 25c0-2.5 2.5-4 5-4" stroke="currentColor" stroke-width="1.5" fill="none" />
-                     
-                            <circle cx="23.5" cy="15.5" r="2.5" fill="currentColor" opacity="0.12" />
-                            <circle cx="23.5" cy="15.5" r="2.5" />
-                         
-                            <path d="M28 25c0-2.5-2.5-4-5-4" stroke="currentColor" stroke-width="1.5" fill="none" />
-                  
-                            <ellipse cx="16" cy="19.5" rx="5" ry="2" fill="currentColor" opacity="0.08" />
-                        </svg>
-                        <h2 class="text-base md:text-xl font-semibold mb-2 text-gray-700 text-center">Officers</h2>
-                        <p class="text-xl md:text-3xl font-bold text-gray-700">15</p>
-                      
-                    </router-link>
-                </div>
-            </div>
-        </div> -->
     </div>
 </template>

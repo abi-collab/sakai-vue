@@ -30,7 +30,7 @@ const { toggleMenu, toggleDarkMode, isDarkTheme } = useLayout();
                     </g>
                 </svg> -->
 
-                <span class="font-extrabold" style="font-family: 'Century Gothic', sans-serif">GAMA</span>
+                <span class="font-extrabold" style="font-family: 'EB Garamond', sans-serif">GAMA</span>
             </router-link>
         </div>
 
@@ -84,7 +84,7 @@ const { toggleMenu, toggleDarkMode, isDarkTheme } = useLayout();
 
 <style scoped>
 .goog-te-gadget .goog-te-combo {
-    font-family: 'Your Custom Font', sans-serif;
+    font-family: 'Noto Sans Deseret', sans-serif;
     font-size: 16px;
     color: #333;
     background-color: #f9f9f9;

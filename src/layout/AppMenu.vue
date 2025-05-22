@@ -202,6 +202,11 @@ const model = ref([
         label: 'Others',
         items: [
             {
+                label: 'Officers',
+                icon: 'pi pi-fw pi-user',
+                to: '/officers'
+            },
+            {
                 label: 'About GAMA',
                 icon: 'pi pi-fw pi-info-circle',
                 to: '/about'

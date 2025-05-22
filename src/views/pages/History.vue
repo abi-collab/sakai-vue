@@ -69,7 +69,7 @@ const events = ref([
             </div>
         </div>
         <div class="col-span-12 md:col-span-8">
-            <div class="card">
+            <div class="">
                 <div class="font-semibold text-base md:text-xl text-center mb-4">GAMA Timeline</div>
                 <!-- <p class="font-semibold mb-2">
                     Maria faces overwhelming hospital bills after her son's accident, despite having some insurance. A kind nurse informs her about potential financial assistance programs, offering a glimmer of hope. Maria resolves to navigate the

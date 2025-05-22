@@ -313,7 +313,7 @@ function closeModal() {
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-8 w-full dark:bg-gray-800 dark:border-gray-700">
                 <div v-for="officer in group" :key="officer.name" class="flex flex-col items-center py-8 cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors" @click="openModal(officer)">
                     <img class="w-32 h-32 mb-3 rounded-full shadow-lg object-cover" :src="officer.image" alt="Officer image" />
-                    <h5 class="mb-1 text-lg font-medium text-gray-900 dark:text-white text-center capitalize">{{ officer.name }}</h5>
+                    <h5 class="mb-1 text-lg text-gray-900 dark:text-white text-center capitalize">{{ officer.name }}</h5>
                     <span class="text-sm text-gray-500 dark:text-gray-400 text-center">{{ officer.position }}</span>
 
                     <span class="text-sm text-gray-500 dark:text-gray-400 text-center">{{ officer.ward }}</span>
