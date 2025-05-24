@@ -32,8 +32,48 @@ import monaliza from '@/assets/Officers/monaliza.jpg';
 import rowena from '@/assets/Officers/rowena.jpg';
 //local-community
 import albert from '@/assets/Officers/albert.jpg';
+import angel from '@/assets/Officers/angel.jpeg';
 import francis from '@/assets/Officers/francis.jpeg';
+import froilan from '@/assets/officers/froilan.jpeg';
 import noel from '@/assets/Officers/noel.jpg';
+
+const officers = [
+    {
+        name: 'Albert Maquimot',
+        position: 'Community Resources Specialist',
+        image: albert,
+        phone: '---',
+        ward: 'Stake Presidency 1st Counselor'
+    },
+    {
+        name: 'Francsis Soberano',
+        position: 'Local Government Resources Specialist',
+        image: francis,
+        phone: '---',
+        ward: 'Stake President'
+    },
+    {
+        name: 'Noel Montemayor',
+        position: 'Community Resources Specialist',
+        image: noel,
+        phone: '---',
+        ward: 'Stake Presidency 2nd Counselor'
+    },
+    {
+        name: 'Froilan Abella',
+        position: 'GAMA Expert',
+        image: froilan,
+        phone: '---',
+        ward: 'Cavite & San Pablo Mission'
+    },
+    {
+        name: 'Angelie C. Carza',
+        position: 'Project Coordinator',
+        image: angel,
+        phone: '---',
+        ward: 'General Trias 3rd'
+    }
+];
 
 const presenters = [
     {
@@ -274,30 +314,6 @@ const patientCare = [
     }
 ];
 
-const community_and_local = [
-    {
-        name: 'Albert Maquimot',
-        position: 'Community Resources Specialist',
-        image: albert,
-        phone: '---',
-        ward: 'Stake Presidency 1st Counselor'
-    },
-    {
-        name: 'Francsis Soberano',
-        position: 'Local Government Resources Specialist',
-        image: francis,
-        phone: '---',
-        ward: 'Stake President'
-    },
-    {
-        name: 'Noel Montemayor',
-        position: 'Community Resources Specialist',
-        image: noel,
-        phone: '---',
-        ward: 'Stake Presidency 2nd Counselor'
-    }
-];
-
 const selectedOfficer = ref(null);
 
 function openModal(officer) {
@@ -310,7 +326,7 @@ function closeModal() {
 </script>
 <template>
     <div class="grid space-y-4">
-        <div v-for="(group, groupName) in { presenters, sss, spao, cwsn, philhealth, patientCare, community_and_local }" :key="groupName" class="border bg-gray-50 dark:bg-gray-900 dark:text-white p-8 rounded-lg">
+        <div v-for="(group, groupName) in { officers, presenters, sss, spao, cwsn, philhealth, patientCare }" :key="groupName" class="border bg-gray-50 dark:bg-gray-900 dark:text-white p-8 rounded-lg">
             <h3 class="text-2xl font-bold mb-4">{{ groupName.toUpperCase() }}</h3>
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-8 w-full dark:bg-gray-800 dark:border-gray-700">
                 <div v-for="officer in group" :key="officer.name" class="flex flex-col items-center py-8 cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors" @click="openModal(officer)">
@@ -319,7 +335,7 @@ function closeModal() {
                     <span class="text-sm text-gray-500 dark:text-gray-400 text-center">{{ officer.position }}</span>
 
                     <span class="text-sm text-gray-500 dark:text-gray-400 text-center">{{ officer.ward }}</span>
-                    <span v-if="officer.phone" class="text-sm text-gray-500 dark:text-gray-400">{{ officer.phone }}</span>
+                    <!-- <span v-if="officer.phone" class="text-sm text-gray-500 dark:text-gray-400">{{ officer.phone }}</span> -->
                 </div>
             </div>
         </div>

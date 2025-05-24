@@ -1,5 +1,5 @@
 <script setup>
-import placeholderImg from '@/assets/imgs/placeholderImg.jpg';
+import froilan from '@/assets/officers/froilan.jpeg';
 import { ref } from 'vue';
 
 const events = ref([
@@ -53,8 +53,8 @@ const events = ref([
 <template>
     <div class="grid grid-cols-12 gap-8">
         <div class="col-span-12 md:col-span-4">
-            <div>
-                <img class="w-56 mb-4 shadow-lg object-cover rounded-lg" :src="placeholderImg" alt="Officer image" />
+            <div class="flex justify-center md:justify-start">
+                <img class="w-56 mb-4 shadow-lg object-cover rounded-lg" :src="froilan" alt="Officer image" />
             </div>
             <div class="text-lg md:text-xl mt-8">
                 GAMA, an acronym that stands for Guide in Administering Medical Assistance, represents a significant initiative spearheaded by the church.
@@ -69,7 +69,7 @@ const events = ref([
             </div>
         </div>
         <div class="col-span-12 md:col-span-8">
-            <div class="">
+            <div>
                 <div class="font-semibold text-base md:text-xl text-center mb-4">GAMA Timeline</div>
                 <!-- <p class="font-semibold mb-2">
                     Maria faces overwhelming hospital bills after her son's accident, despite having some insurance. A kind nurse informs her about potential financial assistance programs, offering a glimmer of hope. Maria resolves to navigate the
