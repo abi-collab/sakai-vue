@@ -34,7 +34,7 @@ import rowena from '@/assets/Officers/rowena.jpg';
 import albert from '@/assets/Officers/albert.jpg';
 import angel from '@/assets/Officers/angel.jpeg';
 import francis from '@/assets/Officers/francis.jpeg';
-import froilan from '@/assets/officers/froilan.jpeg';
+import froilan from '@/assets/Officers/froilan.jpeg';
 import noel from '@/assets/Officers/noel.jpg';
 
 const officers = [

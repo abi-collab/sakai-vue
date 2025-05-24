@@ -1,5 +1,5 @@
 <script setup>
-import froilan from '@/assets/officers/froilan.jpeg';
+import froilan from '@/assets/Officers/froilan.jpeg';
 import { ref } from 'vue';
 
 const events = ref([
