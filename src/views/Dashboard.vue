@@ -2,6 +2,7 @@
 
 <template>
     <div class="">
+        <!-- {{ test }} -->
         <div class="relative isolate px-6 lg:px-8">
             <div class="mx-auto max-w-7xl pt-16 md:pt-32">
                 <div class="z-10">
@@ -17,17 +18,24 @@
             </svg> -->
         </div>
         <!-- <div class="h-2 bg-white"></div> -->
-        <div class="bg-blue-200 relative">
+        <div class="bg-blue-200 relative rounded-b-2xl">
             <div class="mx-auto max-w-7xl p-8 md:px-12 md:pb-16 md:pt-10 text-lg font-medium text-pretty sm:text-xl/8 space-y-2 text-gray-900">
                 <div>Understanding and accessing government medical assistance <b>shouldn't</b> be a struggle.</div>
                 <!-- <div>Our non-profit organization offers this website as a comprehensive, <b>one-stop reference</b> for individuals seeking support.</div> -->
                 <div>We provide a carefully compiled collection of <b>relevant government offices</b>, along with essential information on their services, locations, and the steps involved in availing their <b>medical assistance programs</b>.</div>
             </div>
-            <svg class="absolute left-0 bottom-0 w-full h-4 md:h-10" viewBox="0 0 1440 80" fill="white" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
-                <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#fff" />
+            <svg class="absolute left-0 bottom-0 w-full h-4 md:h-6 rounded-b overflow-hidden" viewBox="0 0 1440 80" fill="#09090b" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+                <g>
+                    <clipPath id="rounded-bottom">
+                        <rect x="0" y="0" width="1440" height="80" rx="0" ry="8" />
+                    </clipPath>
+                    <g clip-path="url(#rounded-bottom)">
+                        <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#09090b" />
+                    </g>
+                </g>
             </svg>
         </div>
-        <div class="bg-white rounded-b">
+        <div class="rounded-b">
             <div class="max-w-7xl mx-auto py-8 grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div class="grid place-items-center px-8 text-balance">
                     <div class="text-lg md:text-2xl" style="font-family: 'Lato', sans-serif; font-weight: 500; color: #1e293b">
@@ -72,14 +80,14 @@
             <!-- <h2 class="text-2xl md:text-4xl font-bold text-center mb-10 text-gray-900">Financial Preparedness Principles</h2> -->
             <div class="flex flex-col md:flex-row md:space-x-8 space-y-8 md:space-y-0">
                 <!-- Card 1 -->
-                <div class="flex-1 bg-white rounded-2xl shadow-md p-8 border-t-4 border-blue-400 hover:shadow-xl transition-shadow duration-200">
+                <div class="flex-1 rounded-2xl shadow-md p-8 border border-t-4 border-blue-400 hover:shadow-xl transition-shadow duration-200">
                     <h3 class="text-xl font-semibold text-blue-700 mb-4 flex items-center" style="font-family: 'Noto Sans Deseret', sans-serif; font-weight: 500">
                         <svg class="w-12 h-12 mr-4 text-blue-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                             <path d="M12 3v18M3 12h18" stroke-linecap="round" />
                         </svg>
                         Importance of Financial Preparedness
                     </h3>
-                    <ul class="text-gray-700 space-y-4 mt-8">
+                    <ul class="space-y-4 mt-8">
                         <li>
                             <span class="font-bold">Spiritual and Temporal Well-being</span>
                             <br />
@@ -98,7 +106,7 @@
                     </ul>
                 </div>
                 <!-- Card 2 -->
-                <div class="flex-1 bg-white rounded-2xl shadow-md p-8 border-t-4 border-green-400 hover:shadow-xl transition-shadow duration-200">
+                <div class="flex-1 rounded-2xl shadow-md p-8 border border-t-4 border-green-400 hover:shadow-xl transition-shadow duration-200">
                     <h3 class="text-xl font-semibold text-green-700 mb-4 flex items-center" style="font-family: 'Noto Sans Deseret', sans-serif; font-weight: 500">
                         <svg class="w-14 h-14 mr-4 text-green-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                             <circle cx="12" cy="12" r="10" />
@@ -106,7 +114,7 @@
                         </svg>
                         Key Principles of Financial Preparedness
                     </h3>
-                    <ul class="text-gray-700 space-y-6 mt-8">
+                    <ul class="space-y-6 mt-8">
                         <li>
                             <span class="font-bold">Avoiding Debt</span> <br />
                             Strongly discourage excessive debt, as it can lead to financial hardship.
@@ -127,7 +135,7 @@
                     </ul>
                 </div>
                 <!-- Card 3 -->
-                <div class="flex-1 bg-white rounded-2xl shadow-md p-8 border-t-4 border-yellow-400 hover:shadow-xl transition-shadow duration-200">
+                <div class="flex-1 rounded-2xl shadow-md p-8 border border-t-4 border-yellow-400 hover:shadow-xl transition-shadow duration-200">
                     <h3 class="text-xl font-semibold text-yellow-700 mb-4 flex items-center" style="font-family: 'Noto Sans Deseret', sans-serif; font-weight: 500">
                         <svg class="w-14 h-14 mr-4 text-yellow-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                             <path d="M12 8v4l3 3" stroke-linecap="round" stroke-linejoin="round" />
@@ -135,7 +143,7 @@
                         </svg>
                         Practical Tips for Financial Preparedness
                     </h3>
-                    <ul class="text-gray-700 space-y-4 mt-8">
+                    <ul class="space-y-4 mt-8">
                         <li>
                             <span class="font-bold">Debt-Elimination Calendar</span><br />
                             Track and manage debt, focusing on high-interest debts first.
@@ -152,9 +160,11 @@
                 </div>
             </div>
         </div>
-
+        <!---------------------- Only Shown in Mobile ---------------------->
         <div class="pt-16 md:pt-0 block md:hidden">
-            <img src="@/assets/flat/10173261_8486.svg" alt="SVG file" class="w-full" />
+            <img id="mobileSVG" src="@/assets/flat/10173261_8486.svg" alt="SVG file" class="w-full rounded" />
         </div>
     </div>
 </template>
+
+<style scoped></style>
