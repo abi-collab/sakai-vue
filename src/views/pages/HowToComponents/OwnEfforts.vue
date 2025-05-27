@@ -3,7 +3,7 @@ import OwnEfforts from '@/assets/imgs/HowTo/OwnEfforts.png';
 </script>
 
 <template>
-    <div class="space-y-4 px-2 text-justify">
+    <div class="space-y-4 px-2">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
                 <div class="font-semibold text-lg">Proactive Financial Health: Taking "Own Efforts" for Medical Bills</div>

@@ -58,7 +58,26 @@ import AppMenu from './AppMenu.vue';
         <app-menu></app-menu>
         <!-- <div class="mt-16 relative md:absolute bottom-8 md:bottom-0 w-1/2">
             <div id="google_translate_element" class="p-3 flex justify-center items-center bg-gray-50 rounded-b-lg shadow-inner"></div>
-            <div v-if="isTranslateActive" class="mt-2 text-green-600 text-center">Google Translate is active!</div>
         </div> -->
     </div>
 </template>
+
+<style scoped>
+/* Style the Google Translate select input */
+/* .custom-google-combo {
+    padding: 0.5rem 1.5rem 0.5rem 0.75rem;
+    border-radius: 0.375rem;
+    border: 1px solid #d1d5db;
+    background-color: #fff;
+    color: #374151;
+    font-size: 1rem;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    outline: none;
+    transition: border-color 0.2s;
+    margin-left: 0.5rem;
+}
+.custom-google-combo:focus {
+    border-color: #6366f1;
+    box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.2);
+} */
+</style>

@@ -14,6 +14,16 @@ import cwsn from '@/assets/logo/cwsn.jpeg';
 import patientCare from '@/assets/logo/patient_care.png';
 //flats
 
+//icons
+import financeIcon from '@/assets/icons/finance.svg';
+import historyIcon from '@/assets/icons/history.svg';
+import homeIcon from '@/assets/icons/home2.svg';
+import howToIcon from '@/assets/icons/howTo.svg';
+import missionIcon from '@/assets/icons/mission.svg';
+import officersIcon from '@/assets/icons/officers.svg';
+import successIcon from '@/assets/icons/success.svg';
+import TCIcon from '@/assets/icons/TC.svg';
+
 import { ref } from 'vue';
 
 import AppMenuItem from './AppMenuItem.vue';
@@ -21,7 +31,7 @@ import AppMenuItem from './AppMenuItem.vue';
 const model = ref([
     {
         label: 'Home',
-        items: [{ label: 'Home', icon: 'pi pi-fw pi-home', to: '/' }]
+        items: [{ label: 'Home', icon: homeIcon, to: '/' }]
     },
     // {
     //     label: 'UI Components',
@@ -48,7 +58,8 @@ const model = ref([
         items: [
             {
                 label: 'Financial Analysis',
-                icon: 'pi pi-fw pi-chart-line',
+                // icon: 'pi pi-fw pi-chart-line',
+                icon: financeIcon,
                 to: '/how-to'
             }
         ]
@@ -203,32 +214,38 @@ const model = ref([
         items: [
             {
                 label: 'Officers',
-                icon: 'pi pi-fw pi-user',
+                // icon: 'pi pi-fw pi-user',
+                icon: officersIcon,
                 to: '/officers'
             },
             {
                 label: 'About GAMA',
-                icon: 'pi pi-fw pi-info-circle',
+                // icon: 'pi pi-fw pi-info-circle',
+                icon: howToIcon,
                 to: '/about'
             },
             {
                 label: 'Success Stories',
-                icon: 'pi pi-fw pi-comment',
+                // icon: 'pi pi-fw pi-comment',
+                icon: successIcon,
                 to: '/stories'
             },
             {
                 label: 'History',
-                icon: 'pi pi-fw pi-history',
+                // icon: 'pi pi-fw pi-history',
+                icon: historyIcon,
                 to: '/history'
             },
             {
                 label: 'Mission & Vision',
-                icon: 'pi pi-fw pi-lightbulb',
+                // icon: 'pi pi-fw pi-lightbulb',
+                icon: missionIcon,
                 to: '/mission-vision'
             },
             {
                 label: 'T & C / Disclaimer',
-                icon: 'pi pi-fw pi-file-word',
+                // icon: 'pi pi-fw pi-file-word',
+                icon: TCIcon,
                 to: '/terms-and-conditions-disclaimer'
             }
         ]
